@@ -1,5 +1,17 @@
-sphinx
+sphinx<3
 pandas
 matplotlib
 quantecon
-jupyter-book
+jupyter-book 0.7.1
+folium
+numpy
+ipywidgets
+pandas
+nbclient
+sympy
+plotly
+bokeh
+altair
+sphinx-click
+sphinx_tabs
+jupytext
