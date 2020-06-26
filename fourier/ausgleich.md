@@ -111,6 +111,19 @@ Eine weitere Aufgabe von Snubbergliedern ist die Begrenzung der Spannungsanstieg
 
 Am Lautsprecherausgang einer Audioverstärkerschaltung sorgt ein oft externes Snubberglied dafür, dass der Verstärker an der induktiv-komplexen Last einer Lautsprecherbox stabil arbeitet und keine sogenannten "wilden" Schwingungen ausführt. Die Wirkung beruht zum einen darauf, dass der induktive Impedanzanstieg der angeschlossenen Lautsprecher bei hohen NF-Frequenzen durch den gegenläufigen Impedanzabfall des Snubbergliedes teilweise kapazitiv kompensiert wird und der Verstärker somit über seinen Arbeitsfrequenzbereich etwa den gleichen reellen Lastwiderstand vorfindet, was dann insgesamt die Stabilität (=Schwingfreiheit) des NF-Verstärkers zusammen mit seinen Gegenkopplungsgliedern erhöht. Oberhalb von etwa 20kHz wirkt das Boucherot-Glied bei klein gewähltem Boucherot-Widerstand zunehmend als Kurzschluss für das Ausgangssignal und wirkt damit ähnlich wie ein Frequenzkompensation (=Grenzfrequenzbegrenzung) beim Operationsverstärker, wobei der Amplitudenabfall am Ausgang stärker als der Signallaufzeiteinfluss des Verstärkers ist, der sich durch den frequenzabhängigen Phasenwinkel zwischen Ein- und Ausgangssignal ausdrückt. D.h. keine Signalfrequenz innerhalb des Arbeitsfrequenzbereiches und etwas darüber findet über die verstärkungsfestlegenden externen und internen Gegenkopplungen des Verstärkers eine Mitkopplungsbedingung vor, die sonst sofort die gefürchtete Selbsterregung ("wilde" Schwingung) erzeugen könnte.
 
+### Funktionswiese
+
+Beim Öffnen eines Schalters (Kontakt oder Halbleiterbautiel), an den ein induktiver Verbraucher angeschlossen ist, entsteht ohne geeignete Beschaltung ein steiler Spannungsantieg bis zum Durchbruch (Schaltlichtbogen oder Avalanchedurchbruch), weil die Induktivität eine hohe Spannung erzeugt, da sie bestrebt ist, den Stromfluss aufrechtzuerhalten.
+
+Der Kondensator des Snubbergliedes übernimmt beim Öffnen des Kontaktes temporär den Stromfluss, so dass der Schalter ohne Funken bzw. mit begrenzter Spannungsanstiegsgeschwindigkeit öffnet.
+
+Der Widerstand hat zwei Aufgaben:
+
+- Dämfung des HF-Schwingungen
+- Begrenzung des Ladestromes des Kondensators beim Schließen des Schalters
+
+Nachteil: Im geöffneten Zustand fließt bei Wechselstrom, bedingt durch den Wechselstromwiderstand (Impedanz) des Kondensators, immer ein Strom durch den Snubber und den Verbraucher. Das kann in einigen Fällen vermieden werden, indem das Snubberglied direkt über den (induktiven) Verbraucher geschaltet wird. Da in diesem Fall die Impedanz des speisenden NEtzes in Reihe liegt (das Niederspannungsnetz ist meist induktiv!), verringert sich die Entstörwirkung. Das kann durch einen weiteren, über die Speisequelle geschalteten Kondensator (sog. "X-Kondensator", oft Bestandteil des Netzfilters) vermieden werden. 
+
 ---
 
 ### Messtechnische Betrachtungen
