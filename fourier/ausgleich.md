@@ -67,7 +67,7 @@ Man betracthe die in der Abbildung dargestellte Schaltung. Aus Gründen, die sp�
 scale: 50%
 align: center
 ---
-Here is my figure caption!
+RC-Stromkreis
 ```
 
 Ein Kondensator $C$ in Serie mit einem Widerstand $R$ ist über einen Schalter an einen Konstantspannungsquelle $U$ angeschlossen. Der Schalter wird genau im Zeitpunk $t=0$ geschlossen. Der Kondensator sei im Moment des Einschaltens noch entladen ($u_C = 0$). Nach dem Schließen des Schalters wird natürlich Strom fließen, der im ersten Augenblick den Betrag $i(t=0)=U/R$ hat. Man stellt also fest:
@@ -88,7 +88,7 @@ Zum Potentialausgleich beziehungswiese bei der Funktionserdung finden sich Paral
 scale: 50%
 align: center
 ---
-Here is my figure caption!
+Einfacher RC-Tiefpass $U_e$: Eingangsspannung $U_a$: Ausgangsspannung
 ```
 
 ### Snubber
@@ -141,7 +141,7 @@ Das entspricht einer Gerade, die zum Zeitpunkt $t=\tau$ gerde den Wert U erreich
 scale: 50%
 align: center
 ---
-Ermittlung der Zeitkonstanten aus der Aufladekurve über den Funktionswert $0,63 \cdot U$.
+Ermittlung der Zeitkonstanten aus der Aufladekurve über die Steigung bei $t=0$
 ```
 
 * Funktionswert bei $t=\tau$
@@ -155,7 +155,7 @@ Man nutzt jetzt die Tatsache, dass nach Ablauf der Zeit $\tau$ die Kurve $63\%$ 
 scale: 50%
 align: center
 ---
-Ermittlung der Zeitkonstanten aus dem Verlauf des Ladestroms über die Steigung bei $t=0$
+Ermittlung der Zeitkonstanten aus der Aufladekurve über den Funktionswert $0,63 \cdot U$
 ```
 
 Die Zeitkonstante $\tau$ kann man auch aus dem Stromverlauf nach der Abbildung bestimmen. Dann ergeben sich in Analogie zu den gezeigten Vorgehensweisen die folgenden Abbildung 
