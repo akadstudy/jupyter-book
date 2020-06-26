@@ -130,7 +130,7 @@ Nachteil: Im geöffneten Zustand fließt bei Wechselstrom, bedingt durch den Wec
 
 Für die Messtechnik ist interessant, dass man aus der Vermessung der Aufladekurve die Zeitkonstante $\tau$ und damit bei bekanntem Widerstand $R$ die Kapazität $C$ oder bei bekannter Kapazität $C$ den Widerstand $R$ in einem Schaltkreis bestimmen kann. Dazu gibt es zwei mögliche Vorgehensweisen:
 
-	1. Steigung im Ursprung
+* Steigung im Ursprung
 
 Aus dem Verlauf der Ladespannung lässt sich mittels der Ableitung die Steigung im Ursprung ($t=0$) berechnen:
 
@@ -144,7 +144,7 @@ align: center
 Here is my figure caption!
 ```
 
-	2. Funktionswert bei $t=\tau$
+* Funktionswert bei $t=\tau$
 
 Eine andere Möglichkeit, aus der gemessenen Kurve die Zeitkonstante zu bestimmten, ist, den Wert der Kondensatorspannung für $t=\tau$ zu berechnen:
 
