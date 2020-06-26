@@ -214,6 +214,8 @@ Zeitverlauf der Kondensatorspannung bei Entladevorgang
 
 ### Die Spannung am Widerstand
 
+Bis hierhin stand bei allen Betrachtungen das Verhalten des Kondensators und die dort auftretende Spannung $u_C(t)$ im Mittelpunkt. Jetzt interessiert mehr die Spannung $u_R(t)$ am Widerstand $R$.
+
 ## RL-Serienschaltung
 
 ### Grundzusammenhänge
