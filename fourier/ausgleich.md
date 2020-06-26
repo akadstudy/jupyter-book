@@ -128,9 +128,13 @@ Nachteil: Im geöffneten Zustand fließt bei Wechselstrom, bedingt durch den Wec
 
 ### Messtechnische Betrachtungen
 
+Für die Messtechnik ist interessant, dass man aus der Vermessung der Aufladekurve die Zeitkonstante $\tau$ und damit bei bekanntem Widerstand $R$ die Kapazität $C$ oder bei bekannter Kapazität $C$ den Widerstand $R$ in einem Schaltkreis bestimmen kann. Dazu gibt es zwei mögliche Vorgehensweisen:
 
+1. Steigung im Ursprung
 
-### Aufladung eines Kondensators mit Aunfangsladung
+2. Funktionswert bei $t=\tau$
+
+### Aufladung eines Kondensators mit Anfangsladung
 
 ### Entladung eines Kondensators
 
