@@ -26,7 +26,7 @@ Das ist aber physikalisch unmöglich, denn die Ableitung der Energie nach der Ze
 
 ---
 
-Quelle: Wikipedia
+**Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Ausgleichsvorgang)**
 
 ### Ausgleichsvorgang
 
@@ -57,6 +57,10 @@ Alternative können die Differnetialgleichungen mit Hilfe der Laplace-Transforma
 ---
 
 ## RC-Serienschaltung
+
+### Grundzusammenhänge
+
+Man betracthe die in Abbildung dargestellte Schaltung. Aus Gründen, die später
 
 ### Grundzusammenhänge
 
