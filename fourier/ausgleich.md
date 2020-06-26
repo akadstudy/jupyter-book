@@ -134,7 +134,22 @@ Für die Messtechnik ist interessant, dass man aus der Vermessung der Aufladekur
 
 2. Funktionswert bei $t=\tau$
 
+
+Aus dem Verlauf der Ladespannung lässt sich mittels der Ableitung die Steigung im Ursprung ($t=0$) berechnen:
+
+Das entspricht einer Gerade, die zum Zeitpunkt $t=\tau$ gerde den Wert U erreicht s. Abbildung. Hat man den Spannungsverlauf etwa mit einem Oszilloskop ermittelt, so kann man in die gemessene Kurve die Tangente im ursprung einzeichnen und sie mit der Asymptote für $t \rightarrow \infty$ schneiden. Vom Schnittpunkt geht man senkrecht nach unten und liet $\tau$ ab.
+
+```{figure} ../images/abb3.png
+---
+scale: 50%
+align: center
+---
+Here is my figure caption!
+```
+
 ### Aufladung eines Kondensators mit Anfangsladung
+
+
 
 ### Entladung eines Kondensators
 
