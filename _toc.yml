@@ -1,1 +1,6 @@
-file: README
+file: markdown
+sections:
+- file: content
+- file: intro
+- file: notebooks
+- file: quantecon-mini-example/README
