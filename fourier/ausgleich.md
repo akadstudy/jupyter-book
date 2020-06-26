@@ -141,7 +141,7 @@ Das entspricht einer Gerade, die zum Zeitpunkt $t=\tau$ gerde den Wert U erreich
 scale: 50%
 align: center
 ---
-Here is my figure caption!
+Ermittlung der Zeitkonstanten aus der Aufladekurve über den Funktionswert $0,63 \cdot U$.
 ```
 
 * Funktionswert bei $t=\tau$
@@ -155,7 +155,7 @@ Man nutzt jetzt die Tatsache, dass nach Ablauf der Zeit $\tau$ die Kurve $63\%$ 
 scale: 50%
 align: center
 ---
-Here is my figure caption!
+Ermittlung der Zeitkonstanten aus dem Verlauf des Ladestroms über die Steigung bei $t=0$
 ```
 
 Die Zeitkonstante $\tau$ kann man auch aus dem Stromverlauf nach der Abbildung bestimmen. Dann ergeben sich in Analogie zu den gezeigten Vorgehensweisen die folgenden Abbildung 
@@ -165,7 +165,7 @@ Die Zeitkonstante $\tau$ kann man auch aus dem Stromverlauf nach der Abbildung b
 scale: 50%
 align: center
 ---
-Here is my figure caption!
+Ermittlung der Zeitkonstanten aus dem Verlauf des Ladestroms über die Steigung bei $t=0$
 ```
 
 ```{figure} ../images/abb6.png
@@ -191,6 +191,8 @@ Zeitverlauf der Ladespannung im RC-Stromkreis mit Anfangsladung des Kondensators
 ```
 
 ### Entladung eines Kondensators
+
+Mit dem Ergebnis des vorigen Abschnitts lässt sich auch der Entladevorgang eines vorher aufgeladenen Kondensators beschreiben. Wir setzen die Spannungsquelle in der Abbildung einfach durch einen Kurzschluss, über den sich der Kondensator entlädt, und erhalten den folgenden dargestellten Stromkreis.
 
 ### Die Spannung am Widerstand
 
