@@ -91,6 +91,22 @@ align: center
 Here is my figure caption!
 ```
 
+### Snubber
+
+**Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Snubber)**
+
+Das aus dem technischen Englisch stammende Wort **Snubber** umschreibt eine Einrichtug zur Dämpfung unerwünschter Schwinungungen in technischen Anwendungen.
+
+Am häfugisten wird der Begriff in der Elektronik verwendet. ***Snubber*** können aber auch mechanische Schwningungsdämpfer, beispielsweise Stoßdämpfer, Kettendämpfer oder Lenkungsdämpfer, sowie hydraulisch/pneumatische Pulsationsdämpfer oder Schalldämpfer sein, bei diesen Anwendungen ist der Begriff jedoch weniger gebräuchlich. 
+
+### Elektrische Snubber
+
+Als ***Snubber-Glied*** bezeichnet man eine elektrische Schaltung, die störende Hochfrequenzen oder Spannungsspitzen neutralisieren soll, die meist beim Schalten induktiver Lasten auftreten, wenn der Stromfluss abrupt unterbrochen wird. Es wird zur Erreichung einer besseren elekromagnetischen Verträglichkeit, zur Funkenlöschung an Schaltkontakten und zur Begrenzung der Spannungsanstiegsgeschwindigkeit an Halbleiterschaltern (Thyristoren, IGBT, Bipolartransistoren) eingesetzt.
+
+### Verwendung
+
+Snubberglieder werden beispielswiese an Kontakten von Leistungsrelais, Schützen und anderen elektrischen Kontakten eingesetzt, wenn diese induktive Lasten zu schalten haben. Beim Prellen und Öffnen der Kontakte in einem Stromkreis, der Induktivitäten enthält, entsteheen ohne Kondensator steile Spannungsspitzen, weil die Änderungsgeschwindigkeit des Stroms groß ist. Diese Spannungsspitzen werden durch einen Snubber abgefangen und gedämpf, wei die 
+
 ---
 
 ### Messtechnische Betrachtungen
