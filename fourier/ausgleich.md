@@ -173,12 +173,22 @@ Here is my figure caption!
 scale: 50%
 align: center
 ---
-Here is my figure caption!
+Ermittlung der Zeitkonstanten aus dem Verlauf des Ladestroms über den Funktionswert $(1-0,63)\cdot U/R$
 ```
 
 ### Aufladung eines Kondensators mit Anfangsladung
 
+Es wird jetzt untersucht, wie die Ladespannung am Kondensator sich etwickelt, wenn der Kondensator bereits eine Anfangsladung enthält, bevor der Schalter geschlossen wird. Die Spannung am Kondensator zum Zeitpunkt $t=0$ betrage also $U=U_{C0}$.
 
+Das heißt, auf die Ladespannung des Kondensators zu Beginn ($U_{C0}$) wird der weitere Ladevorgang einfach "draufgesetzt". Wie man leicht nachvollziehen kann, schließt die eben gewonnene Formel den Fall $U_{C0}=0$ ein.
+
+```{figure} ../images/abb7.png
+---
+scale: 50%
+align: center
+---
+Zeitverlauf der Ladespannung im RC-Stromkreis mit Anfangsladung des Kondensators
+```
 
 ### Entladung eines Kondensators
 
