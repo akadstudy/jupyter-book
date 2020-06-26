@@ -60,7 +60,15 @@ Alternative können die Differnetialgleichungen mit Hilfe der Laplace-Transforma
 
 ### Grundzusammenhänge
 
-Man betracthe die in Abbildung dargestellte Schaltung. Aus Gründen, die später klar werden, bezeichnet man diese Anordnung auch als ein RC-Integrierglied oder einen RC-Tiefpass.
+Man betracthe die in der Abbildung dargestellte Schaltung. Aus Gründen, die später klar werden, bezeichnet man diese Anordnung auch als ein RC-Integrierglied oder einen RC-Tiefpass.
+
+```{figure} ../images/abb.png
+---
+scale: 50%
+align: center
+---
+Here is my figure caption!
+```
 
 Ein Kondensator $C$ in Serie mit einem Widerstand $R$ ist über einen Schalter an einen Konstantspannungsquelle $U$ angeschlossen. Der Schalter wird genau im Zeitpunk $t=0$ geschlossen. Der Kondensator sei im Moment des Einschaltens noch entladen ($u_C = 0$). Nach dem Schließen des Schalters wird natürlich Strom fließen, der im ersten Augenblick den Betrag $i(t=0)=U/R$ hat. Man stellt also fest:
 
