@@ -1,8 +1,8 @@
 - file: intro
 
 - header: Fourier-Entwicklung
-- file: start/fourier
-- file: start/start
+- file: fourier/inhalt
+- file: fourier/ausgleich
 
 - header: Inhalt
 - file: content/first

@@ -1,4 +1,4 @@
-# Fourier
+# Inhalt
 
 ## Übertragungsfunktionen, nichtsinusförmige Größen
 
