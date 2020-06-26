@@ -2,7 +2,7 @@ sphinx<3
 pandas
 matplotlib
 quantecon
-jupyter-book 0.7.1
+jupyter-book==0.7.1
 folium
 numpy
 ipywidgets
