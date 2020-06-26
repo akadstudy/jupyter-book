@@ -1,5 +1,7 @@
-file: markdown
-sections:
-- file: content
+- file: markdown
+
+- header: Chapter
 - file: intro
-- file: notebooks
+sections:
+- file: page/notebooks
+- file: content/content
