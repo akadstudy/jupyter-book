@@ -132,14 +132,43 @@ Für die Messtechnik ist interessant, dass man aus der Vermessung der Aufladekur
 
 1. Steigung im Ursprung
 
-2. Funktionswert bei $t=\tau$
-
-
 Aus dem Verlauf der Ladespannung lässt sich mittels der Ableitung die Steigung im Ursprung ($t=0$) berechnen:
 
 Das entspricht einer Gerade, die zum Zeitpunkt $t=\tau$ gerde den Wert U erreicht s. Abbildung. Hat man den Spannungsverlauf etwa mit einem Oszilloskop ermittelt, so kann man in die gemessene Kurve die Tangente im ursprung einzeichnen und sie mit der Asymptote für $t \rightarrow \infty$ schneiden. Vom Schnittpunkt geht man senkrecht nach unten und liet $\tau$ ab.
 
 ```{figure} ../images/abb3.png
+---
+scale: 50%
+align: center
+---
+Here is my figure caption!
+```
+
+2. Funktionswert bei $t=\tau$
+
+Eine andere Möglichkeit, aus der gemessenen Kurve die Zeitkonstante zu bestimmten, ist, den Wert der Kondensatorspannung für $t=\tau$ zu berechnen:
+
+Man nutzt jetzt die Tatsache, dass nach Ablauf der Zeit $\tau$ die Kurve $63\%$ ihres Endwerts erreicht hat, in umgekehrter Richtung. Das heißt, man ermittelt $63\%$ des Endwerts der Kurve, geht horizontal bis zum Schnittpunkt mit der Kurve und von da nach unten zur Zeitache (s. Abbildung). Der gefundene wert is $\tau$. 
+
+```{figure} ../images/abb4.png
+---
+scale: 50%
+align: center
+---
+Here is my figure caption!
+```
+
+Die Zeitkonstante $\tau$ kann man auch aus dem Stromverlauf nach der Abbildung bestimmen. Dann ergeben sich in Analogie zu den gezeigten Vorgehensweisen die folgenden Abbildung 
+
+```{figure} ../images/abb5.png
+---
+scale: 50%
+align: center
+---
+Here is my figure caption!
+```
+
+```{figure} ../images/abb6.png
 ---
 scale: 50%
 align: center
