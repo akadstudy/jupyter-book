@@ -62,7 +62,7 @@ Alternative können die Differnetialgleichungen mit Hilfe der Laplace-Transforma
 
 Man betracthe die in der Abbildung dargestellte Schaltung. Aus Gründen, die später klar werden, bezeichnet man diese Anordnung auch als ein RC-Integrierglied oder einen RC-Tiefpass.
 
-```{figure} ../images/abb.png
+```{figure} ../images/abb1.png
 ---
 scale: 50%
 align: center
