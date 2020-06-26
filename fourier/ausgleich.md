@@ -44,6 +44,16 @@ Der Ausgleichsvorgang kann aperiodisch (gleitend) oder schwingend verlaufen, so 
 
 Bei einem schwingenden Vorgang is das Ausmaß des Ausgleichsvorgangs nicht vorhersehbar, da sein Anfangszustand durch die Zufälligkeits des Zeitpunktes des Eingriffs ungewiss ist. Insbesonder bei Wechselstromkreisen können von Zeitpunkt (Phasenwinkel) abhängige beträchtliche Spannungs- oder Stromüberhöhungen enstehen bei höherer Frequenz als Netzfrequenz, siehe beispielsweise Frequenzanganben zum Erdschluss. Der neue stationäre Vorgang ist dagegen vom Anfangszustand unabhängig.
 
+### Mathematische Behandlung
+
+Die mathematische Behandlung von Ausgleichsvorgängen führt auf eine lineare gewöhnliche Differentialgeichung mit konstanten Koeffizienten. Bei $n$ Speicherelementen ist diese von $n$-ter Ordnung. Alternativ sind $n$ Differentialgleichen erster Ordnung möglich. Ihre Lösung beschreibt eine Überlagerung des zu erwartenden neuen eingeschwungenen Vorgangs und des asymptotisch abklingenden (flüchigen) Ausgleichsvorgangs. Bspw. bei einem Stromkreis kann der Strom als Überlagerung eines stationären Stromes und eines Ausgleichsstromes beschrieben werden, der den stetigen Übergang vermittelt.
+
+- Der stationäre Vorgang folgt aus der partikulären Lösung der inhomogenen Differentialgleichung für $t \rightarrow \infty$. In der Elektrotechnik entspricht das einer Gleichstrom- oder Wechselstromrechnung.
+
+- Der flüchtiger Vorgang folgt aus der allgemeinen Lösung der homogenen Differentialglichung einschließlich Konstantenbestimmung.
+
+Alternative können die Differnetialgleichungen mit Hilfe der Laplace-Transformation gelöst werden. Differenzieren und Integrieren werden durch diese Transformation auf Multiplizieren und Dividieren zurückgeführt. Aus einer linearen Differentialgleichung im Zeitbereich wird eine lineare algebraische Gleichung in einem Bildbereich.
+
 ---
 
 ## RC-Serienschaltung
