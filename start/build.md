@@ -1,3 +1,0 @@
-# Build
-
-How to build the system...
