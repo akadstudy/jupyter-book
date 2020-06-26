@@ -75,10 +75,27 @@ Ein Kondensator $C$ in Serie mit einem Widerstand $R$ ist über einen Schalter a
 > Im Moment des Einschaltens verhält sich eine ungeladene Kapazität wie ein Kurzschluss.
 
 Der fließende Strom lädt nun den Kondensator auf, sodass $u_C(t)$ ansteigt. Der Stromfluss wird mit zunehmendem $u_C$ immer schwächer, denn die über $R$ liegende Spannung $U - u_C$ nimmt ab und somit auch der durch $R$ über das ohmsche Gesetz erzwungene Strom. Wenn $u_C$ den Wert von $U$ erreicht hat, verisegt der Stromfluss schließlich ganz - der Kondensator ist aufgeladen und der Ausgleichsvorgang ist somit abgeschlossen. 
- 
-### Grundzusammenhänge
+
+---
+**Quelle: [Wikipedia](https://de.wikipedia.org/wiki/RC-Glied)**
+
+Unter RC-Gliedern versteht man in der Elektrotechnik Schaltungen, die aus einem ohmschen Widerstand (R- engl. resistor) un einem Kondensator (C - engl. capacitor) aufgebaut sind. RC-Glieder sind lineare, zeitinvariante Systeme. Im engeren Sinne sind damit die Filter wie der Tiefpass oder Hochpass gemeint. Bei einem Tiefpass, wie im nebenstehenden Bild, ist der Kondensator parallel am Signalausgang geschaltet, beim Hochpass sind Kondensator und Widerstand vertauscht.
+
+Zum Potentialausgleich beziehungswiese bei der Funktionserdung finden sich Parallelschaltungen von Konensator und Widerstand. Zur Begrenzung von elektromagnetischen Störungen finden sich Reihenschaltungen von Kondensator und Widerstand, wie beispielsweise bei dem Snubber.
+
+```{figure} ../images/abb2.png
+---
+scale: 50%
+align: center
+---
+Here is my figure caption!
+```
+
+---
 
 ### Messtechnische Betrachtungen
+
+
 
 ### Aufladung eines Kondensators mit Aunfangsladung
 
