@@ -194,6 +194,24 @@ Zeitverlauf der Ladespannung im RC-Stromkreis mit Anfangsladung des Kondensators
 
 Mit dem Ergebnis des vorigen Abschnitts lässt sich auch der Entladevorgang eines vorher aufgeladenen Kondensators beschreiben. Wir setzen die Spannungsquelle in der Abbildung einfach durch einen Kurzschluss, über den sich der Kondensator entlädt, und erhalten den folgenden dargestellten Stromkreis.
 
+```{figure} ../images/abb8.png
+---
+scale: 50%
+align: center
+---
+RC-Stromkreis beim Entladevorgang
+```
+
+Dieser Zeitverlauf ist in der folgenden Abbildung dargestellt.
+
+ ```{figure} ../images/abb9.png
+---
+scale: 50%
+align: center
+---
+Zeitverlauf der Kondensatorspannung bei Entladevorgang
+```
+
 ### Die Spannung am Widerstand
 
 ## RL-Serienschaltung
