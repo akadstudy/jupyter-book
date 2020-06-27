@@ -242,7 +242,7 @@ Spannungsverläufe $u_R(t) und u_C(t)$ beim Entladevorgang im RC-Stromkreis
 
 ### Grundzusammenhänge
 
-
+Nun wird die Wikrung einer Anordnung, bei der eine Spule die Rolle des Kondensators einnimmt. Diese RL-Serienschaltung wird in der folgenden Abbildung dargestellt. Die Rechnung erfolgt analog zur Behandlung der Kondensatorschaltung im vorigen Abschnitt. Auch hier wird der Schalter bei $t=0$ geschlossen.
 
 ### Messtechnische Betrachtungen
 
