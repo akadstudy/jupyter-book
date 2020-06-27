@@ -326,6 +326,23 @@ Noch ein weiterer Begriff wird aus der Betrachtung der Kurvenformen deutlich: De
 
 > Ein Tiefpass ist ein Übertragungsglied, das Signale mit tiefen Frequenzen passieren lässt und Signale mit höheren Frequenzen zunehmen blockiert.  
 
+---
+**Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Tiefpass)**
+
+Als **Tiefpass** bezeichnet man in der Elektronik solche Filter, die Signalanteile mit Frequenzen unterhalb ihrer Grenzfrequenz annähernd ungeschwächt passieren lassen, Anteile mit höheren Frequenzen dagegen dämpfen. Entsprechende Filterfunktionen können auch in anderen Bereichen, wie z.B. Mechanik, Akustik oder Hydraulik vorkommen, sie werden dort meist jedoch nicht so genannt. Auch jede Art von mechanische Trägheit wirkt sich tiefpassbildend aus. Mit der Abschwächung verbinden ist eine Zeitverzögerung, durch die sich bei sinusförmigem Signalverlauf der Phasenwinkel verschiebt. 
+
+### Anwendung
+
+Tiefpassfilter in der Elektornik sind oft passive analoge Tiefpasse, die aus Widerständen, Spulen und Kondensatoren bestehen. Mit zusätzlichen aktiven Bauelementen, wie Operationsverstärker oder Transistoren, können aktive analoge Tiefpässe realisiert werden.
+
+Bei der digitalen Signalverarbeitung werden zeitdiskrete Tiefpassfilter in Filterstrukturen wie dem FIR- oder IIR-Filter realisiert. Dies erfolgt mit digitalen Schaltungen wie FPGAs oder mittels sequentieller Computerprogramme. 
+
+Tiefpässe für hohe Leistungen für Hochfrequenz und die Elektrische Energietechnik werden aus Kondensatoren und Spulen aufgebaut. Man findet sie an den Lastausgängen von Frequenzumrichtern, Klasse-D-Verstärkern, Schaltnetzteilen und in Netzfiltern.
+
+Ein idealer Tiefpass weist eine nicht kausale Übertragungsfunktion auf und ist daher nicht realisierbar. Er gilt lediglich in der Filtertheorie als vereinfachtes Modell. Reale Tiefpässe können sich nur möglichst gut der Eigenschaft eines idealen Tiefpasses annähern.
+
+---
+
 ### RC-Hochpass
 
 Man vertauscht nun die Elemente $R$ und $C$ gegenüber der Tiefpassanordnung des vorigen Abschnitts und gelant damit zur folgenden Abbildung.
@@ -370,6 +387,25 @@ Auch bezüglich des Frequenzverhalten ist bei dieser RC-Anrodnung der umgekehrte
 
 > Ein Hochpass ist ein Übertragungsglied, das Signale mit hohen Frequenzen passieren lässt und Signale mit tieferen Frequenzen zunehmend blockiert.
 
+---
+
+**Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Hochpass)**
+
+Als Hochpass bezeichnet man Filter, die Frequenzen oberhalb ihrer Grenzfrequenz annähernd ungeschwächt passieren lassen und tiefere Frequenzen dämpfen. 
+
+Gebräuchlich sind solche Filter in der Elektronik, entsprechende Filterfunktionen können aber auch in anderen Bereichen, wie zum Beispiel Mechanik, Akustik, Hydaulik oder Elektrotechnik vorkommen sie werden dort meistens jedoch nicht so genannt.
+
+### Anwendungen
+
+Hochpass-Filter in der Niederfrequenztechnik werden anwendungsbezogen auch als Tiefen-Sperre, Bassfilter, Low-Cut-Filte, Bass-Cut-Filter, Trittschaltfilter bezeichnet. Diese Begriffe sind in der Tontechnik gebräuchlich; sie weisen darauf hin, dass ein solcher Filter, zum Beispiel in einem Equalizier die "Tiefen" des Signals bzw. entsprechende Brummstörungen abschwächt, die vorwiegend tiefe Frequenzen enthalten. Weiterhin sind Hochpässe den Hochtonlautsprechern (Tweeter) vorgeschaltet.
+
+Hochpässe werden auch zur Ein- und Auskopplung von Hochfrequenzsignalen, z.B. in Antennenweichen, bei ADSL oder der HF-Signalübertragung über Energieleitungen eingesetzt.
+
+Mit Hilfe von Filter-Transformationen kann aus dem Hochpass ein Tiefpass oder auch eine Bandsperre gebildet werden.
+
+---
+
 Zusammenfassen zum Kapitel, lässt sich sagen:
 
-> Ein Rechtecksignal kann als eine Folge von Ein- und Ausschaltvorgängen betrachtet werden. Wegen der unvermeidlichen Ausgleichsvorgänge ist die Übertragung einer Rechteckspannung über eine RC-Glied nicht ohne Signalverfälschung möglich. Wie stark das Signal verändert wird, bestimmt das Verhältnis aus der Periodendauer des Rechecksignal und der 
+> Ein Rechtecksignal kann als eine Folge von Ein- und Ausschaltvorgängen betrachtet werden. Wegen der unvermeidlichen Ausgleichsvorgänge ist die Übertragung einer Rechteckspannung über eine RC-Glied nicht ohne Signalverfälschung möglich. Wie stark das Signal verändert wird, bestimmt das Verhältnis aus der Periodendauer des Rechtecksignal und der Zeitkonstanten des Übertragungsglieds. Man hat zwei Typen des RC-Übertragungsglieds kennengelernt: den RC-Tiefpass (Integrierglied) und den RC-Hochpass (Differenzierglied).
+
