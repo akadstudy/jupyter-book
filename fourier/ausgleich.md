@@ -204,7 +204,7 @@ RC-Stromkreis beim Entladevorgang
 
 Dieser Zeitverlauf ist in der folgenden Abbildung dargestellt.
 
- ```{figure} ../images/abb9.png
+```{figure} ../images/abb9.png
 ---
 scale: 50%
 align: center
@@ -215,6 +215,17 @@ Zeitverlauf der Kondensatorspannung bei Entladevorgang
 ### Die Spannung am Widerstand
 
 Bis hierhin stand bei allen Betrachtungen das Verhalten des Kondensators und die dort auftretende Spannung $u_C(t)$ im Mittelpunkt. Jetzt interessiert mehr die Spannung $u_R(t)$ am Widerstand $R$.
+
+Zunächst wird der Aufladevorgang wieder betrachtet. Die Spannung am Widerstand ist die Differenz zwischen der am Eingang anliegenden Spannung $U$ und der Kondensatorspannung $u_C(t)$. Der Verlauf von $u_R(t) ist zusammen mit u_C(t) dargestellt.
+
+```{figure} ../images/abb10.png
+---
+scale: 50%
+align: center
+---
+Spannungsverläufe $u_R(t) und u_C(t) beim Aufladevorgang im RC-Stromkreis
+```
+
 
 ## RL-Serienschaltung
 
