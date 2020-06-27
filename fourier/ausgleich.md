@@ -349,3 +349,6 @@ align: center
 ---
 Spannungsverläufe am RC-Hochpass für $\tau$ in der Größenordnung von $T$ (in diesem Beisipiel ist $T=12\tau$, damit liegt die Periodendauer T noch etwa in der Größenordnung von $\tau$)
 ```
+
+Zeitkonstante $\tau << Periodendauer T$
+
