@@ -223,13 +223,26 @@ Zunächst wird der Aufladevorgang wieder betrachtet. Die Spannung am Widerstand 
 scale: 50%
 align: center
 ---
-Spannungsverläufe $u_R(t) und u_C(t) beim Aufladevorgang im RC-Stromkreis
+Spannungsverläufe $u_R(t) und u_C(t)$ beim Aufladevorgang im RC-Stromkreis
 ```
 
+Entsprechend wird der Entladevorgang betrachtet. Der Verlauf von $u_R(t) ist zusammen mit $u_C(t) dargestellt.
+
+```{figure} ../images/abb11.png
+---
+scale: 50%
+align: center
+---
+Spannungsverläufe $u_R(t) und u_C(t)$ beim Entladevorgang im RC-Stromkreis
+```
+
+> In Stromkreisen sind Kapazität und Induktivität energiespeichernde Elemente. Weil Energie nicht unendlich schnell transportiert werden kann, entsteht nach einem Schaltvorgang in einem Stromkreis ein Ausgleichsvorgang. Bei der RC-Serienschaltung besteht dieser aus einem verzögerten Anstieg oder einem verzögerten Abfall der Kondensatorspannung. Schaltet man auf die Serienschaltung eine Gleichspannung, so lässt sich mit einer Differenzialgleichung berechnen, dass die Spannung am Kondensator in der Form einer e-Funktion verläuft. Charaktersitische für den Ausgleichsvorgang ist die Zeitkonstante $\tau=R \cdot C$, die auch messtechnisch aus dem Signalverlauf ermittelt werden kann. 
 
 ## RL-Serienschaltung
 
 ### Grundzusammenhänge
+
+
 
 ### Messtechnische Betrachtungen
 
