@@ -318,6 +318,13 @@ Die Abbildungen zeigen, dass die Kurvenform am Ausgang des RC-Glieds vom Verhäl
 
 Im zweiten Fll ($T/\tau = 1 oder \tau = T$) ist am Ausgang von der ursprünglichen Rechteckform des Signals kaum mehr etwas zu erkennen: Das Ausgangssignal ist in der ersten Halbperiode fast zu einem Dreieck geworden und auch in den nachfongenden Halbperioden wiederholt sich die Tendenz eines fast zeitproportionalen Übergangsverlaufs auf den jeweils neuen Wert. Am Signalverlauf ist zu sehen, warum ein RC-Glied in der vorliegenden Anordnung als ***Integrierglied*** bezeichnet wird - jedenfalls dann, wenn $T/\tau=1$ oder gar wenn $T/\tau << 1$ gilt. Das sieht man am einfachsten, wenn man die erste Halbperiode betrachtet, in der $u_2$ die Form einer ansteigendne Gerade hat. Eine ansteigende Gerade ist aber genau das, was man bekommt, wenn man das Integral über eine Konstate (hier die Eingangsspannung $u_1=U$) bildet. Diese Überlegung gilt auch sinngemäß auch für die folgenden Halbperioden.
 
+Im erste Fall ($T/\tau >> 1$ oder $\tau << T$) ist das Ausgangssignal $u_2$ dagegen in seiner Form wesentlich weniger verfälscht und der Recheckform des Eingangssignals $u_1$ deutlich näher. Die Schlussfolgerung asu diesen Beobachtungen lautet, dass man bei der Übertragung eines Rechtecksignals darauf achten muss, dass das Übertragungsglied eine Zeitkonstante aufweist, die die Bedingung $\tau<<T$ aufweist.
 
+Im Fall $T/\tau << 1$ hat der Kondensator in jeder Halbperiode ausreichend Zeit, sich auf den jeweils geänderten Wert des Eingangssignals auf - bzw. umzuladen. 
+
+Noch ein weiterer Begriff wird aus der Betrachtung der Kurvenformen deutlich: Der Verlgeich zwischen den Abbildung zeigte, dass nur eine relativ niederfrequente Recheckspannung noch als eine solche übertragen wird. Man bezeichnet die besprochene RC-Anrordnung deshalb auch als einen ***RC-Tiefpass***
+
+> Ein Tiefpass ist ein Übertragungsglied, das Signale mit tiefen Frequenzen passieren lässt und Signale mit höheren Frequenzen zunehmen blockiert.  
 
 ### RC-Hochpass
+
