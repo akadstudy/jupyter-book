@@ -3,6 +3,7 @@
 - header: Fourier-Entwicklung
 - file: fourier/inhalt
 - file: fourier/ausgleich
+- file: fourier/uebertragung
 
 - header: Komplexer Wechselstromkreis
 - file: wechselstrom/first
