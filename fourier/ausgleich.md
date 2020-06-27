@@ -148,7 +148,7 @@ Ermittlung der Zeitkonstanten aus der Aufladekurve über die Steigung bei $t=0$
 
 Eine andere Möglichkeit, aus der gemessenen Kurve die Zeitkonstante zu bestimmten, ist, den Wert der Kondensatorspannung für $t=\tau$ zu berechnen:
 
-Man nutzt jetzt die Tatsache, dass nach Ablauf der Zeit $\tau$ die Kurve $63\%$ ihres Endwerts erreicht hat, in umgekehrter Richtung. Das heißt, man ermittelt $63\%$ des Endwerts der Kurve, geht horizontal bis zum Schnittpunkt mit der Kurve und von da nach unten zur Zeitache (s. Abbildung). Der gefundene wert is $\tau$. 
+Man nutzt jetzt die Tatsache, dass nach Ablauf der Zeit $\tau$ die Kurve 63% ihres Endwerts erreicht hat, in umgekehrter Richtung. Das heißt, man ermittelt 63% des Endwerts der Kurve, geht horizontal bis zum Schnittpunkt mit der Kurve und von da nach unten zur Zeitache (s. Abbildung). Der gefundene wert is $\tau$. 
 
 ```{figure} ../images/abb4.png
 ---
@@ -360,4 +360,16 @@ align: center
 Spannungsverläufe am RC-Hochpass für $\tau << T$
 ```
 
-Auf den positiven Spannungssprung von $\u_1$ reagiert $u_2$ zunächst mit einem unverzögerten Anstieg auf gleiche Höhe. Nach Abklingen dieses Ausschlags nach der Exponentialfunktion ist dann $u_2 =0$. Auf den nächsten Sprung von $u_1$ bei $T/2$ in die Gegenrichtung (das ist dann ein Sprung von $U$ auf $0$, somit ein Spannungssprung der Höhe $-U$) reagiert $u_2$ wieder nach dem gleichen Schema: Es reproduziert den - nunmehr negativen - Sprung von $u_1$, fällt dann aber wieder auf 0 zurück.
+Auf den positiven Spannungssprung von $\u_1$ reagiert $u_2$ zunächst mit einem unverzögerten Anstieg auf gleiche Höhe. Nach Abklingen dieses Ausschlags nach der Exponentialfunktion ist dann $u_2 =0$. Auf den nächsten Sprung von $u_1$ bei $T/2$ in die Gegenrichtung (das ist dann ein Sprung von $U$ auf $0$, somit ein Spannungssprung der Höhe $-U$) reagiert $u_2$ wieder nach dem gleichen Schema: Es reproduziert den - nunmehr negativen - Sprung von $u_1$, fällt dann aber wieder auf $0$ zurück.
+
+Die Situation wird deutlicher, wenn man die zweite Abbildung betrachtet. Wegen des dort zugrunde gelegten wesentlich kleineren Verhältnisses $\tau/T << 1$ bekommt $u_2$ fast die Form von Nadelimpulsen.
+
+Man kann in Umkehrung der im vorigen Abschnitt angestellten Analyse sagen, dass die nun hier vorliegende Anordnung die ***Ableitung*** des Eingangssignals liefert, und zwar umso besser, je kleiner die Zeitkonstante $\tau$ im Verhältnis zur Periodendauer des Signals $T$ gewählt wurde. Daher erklärt sich auch der Begriff ***Differenzierglied*** für die vorliegende Anordnung. Will man aber gerde ***nicht***, dass die Schaltung als Differenzierglied arbeitet, sondern dass sie das ankommende Signal möglichst unverfälscht überträgt, so muss man darauf achten, dass sie eine Zeitkonstante aufweist, die die Bedingung $T/\tau << 1$ (bzw. $\tau/T>>1$) aufweist.
+
+Auch bezüglich des Frequenzverhalten ist bei dieser RC-Anrodnung der umgekehrte Begriff begräuchlich: Folglich werden Signale mit einer kleinen Periodendauer formgetreuer übertragen.
+
+> Ein Hochpass ist ein Übertragungsglied, das Signale mit hohen Frequenzen passieren lässt und Signale mit tieferen Frequenzen zunehmend blockiert.
+
+Zusammenfassen zum Kapitel, lässt sich sagen:
+
+> Ein Rechtecksignal kann als eine Folge von Ein- und Ausschaltvorgängen betrachtet werden. Wegen der unvermeidlichen Ausgleichsvorgänge ist die Übertragung einer Rechteckspannung über eine RC-Glied nicht ohne Signalverfälschung möglich. Wie stark das Signal verändert wird, bestimmt das Verhältnis aus der Periodendauer des Rechecksignal und der 
