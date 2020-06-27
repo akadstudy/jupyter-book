@@ -301,8 +301,23 @@ Mit den Ergebnissen aus Abschnitt 1.2 können der Signalverlauf ermittelt werden
 scale: 50%
 align: center
 ---
-Spannungsverläufe am RC-Tiefpass für T deutlich größer als $\tau$ (hier ist $T=12\tau$)
+Spannungsverläufe am RC-Tiefpass für $T$ deutlich größer als $\tau$ (hier ist $T=12\tau$)
 ```
+
+- Periodendauer $T$ etwa so groß wie die Zeitkonstate $\tau$
+
+```{figure} ../images/abb16.png
+---
+scale: 50%
+align: center
+---
+Spannungsverläufe am RC-Tiefpass für $T=2\tau$
+```
+
+Die Abbildungen zeigen, dass die Kurvenform am Ausgang des RC-Glieds vom Verhältnis $T/\tau$ abhängt.
+
+Im zweiten Fll ($T/\tau = 1 oder \tau = T$) ist am Ausgang von der ursprünglichen Rechteckform des Signals kaum mehr etwas zu erkennen: Das Ausgangssignal ist in der ersten Halbperiode fast zu einem Dreieck geworden und auch in den nachfongenden Halbperioden wiederholt sich die Tendenz eines fast zeitproportionalen Übergangsverlaufs auf den jeweils neuen Wert. Am Signalverlauf ist zu sehen, warum ein RC-Glied in der vorliegenden Anordnung als ***Integrierglied*** bezeichnet wird - jedenfalls dann, wenn $T/\tau=1$ oder gar wenn $T/\tau << 1$ gilt. Das sieht man am einfachsten, wenn man die erste Halbperiode betrachtet, in der $u_2$ die Form einer ansteigendne Gerade hat. Eine ansteigende Gerade ist aber genau das, was man bekommt, wenn man das Integral über eine Konstate (hier die Eingangsspannung $u_1=U$) bildet. Diese Überlegung gilt auch sinngemäß auch für die folgenden Halbperioden.
+
 
 
 ### RC-Hochpass
