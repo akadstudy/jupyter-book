@@ -4,6 +4,10 @@
 - file: fourier/inhalt
 - file: fourier/ausgleich
 - file: fourier/uebertragung
+- file: fourier/ueberlagerung
+- file: fourier/fourierkoeffizient
+- file: fourier/verzerrung
+- file: fourier/kennwerte
 
 - header: Komplexer Wechselstromkreis
 - file: wechselstrom/first
