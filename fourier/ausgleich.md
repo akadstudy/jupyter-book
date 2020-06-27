@@ -280,8 +280,29 @@ Es sollen die Erkenntnisse über RL-Serienschaltungen zusammengefasst werden.
 
 ## Übertragung von Rechtecksignalen
 
-
-
 ### RC-Tiefpass
+
+Nach dem Exkurs mit der RL-Anordnung wird wieder RC-Anordnung genommen. Diese werden nun als Übertragungsglied mit einer Eingangsspanung $u_1(t)$ und einer Ausgangsspannung $u_2(t)$ betrachtet. Die Eingangsspannung soll die Form eines Rechtecksignals der Höhe $U$ haben.
+
+```{figure} ../images/abb14.png
+---
+scale: 50%
+align: center
+---
+RC-Tiefpass (Integrierglied)
+```
+
+Mit den Ergebnissen aus Abschnitt 1.2 können der Signalverlauf ermittelt werden. Man betrachtet dabei zwei Situationen:
+
+- Periodendauer $T$ deutlich größer als die Zeitkonstante $\tau$ 
+
+```{figure} ../images/abb15.png
+---
+scale: 50%
+align: center
+---
+Spannungsverläufe am RC-Tiefpass für T deutlich größer als $\tau$ (hier ist $T=12\tau$)
+```
+
 
 ### RC-Hochpass
