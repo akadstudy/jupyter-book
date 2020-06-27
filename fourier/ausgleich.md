@@ -352,3 +352,12 @@ Spannungsverläufe am RC-Hochpass für $\tau$ in der Größenordnung von $T$ (in
 
 Zeitkonstante $\tau << Periodendauer T$
 
+```{figure} ../images/abb19.png
+---
+scale: 50%
+align: center
+---
+Spannungsverläufe am RC-Hochpass für $\tau << T$
+```
+
+Auf den positiven Spannungssprung von $\u_1$ reagiert $u_2$ zunächst mit einem unverzögerten Anstieg auf gleiche Höhe. Nach Abklingen dieses Ausschlags nach der Exponentialfunktion ist dann $u_2 =0$. Auf den nächsten Sprung von $u_1$ bei $T/2$ in die Gegenrichtung (das ist dann ein Sprung von $U$ auf $0$, somit ein Spannungssprung der Höhe $-U$) reagiert $u_2$ wieder nach dem gleichen Schema: Es reproduziert den - nunmehr negativen - Sprung von $u_1$, fällt dann aber wieder auf 0 zurück.
