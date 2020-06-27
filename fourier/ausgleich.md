@@ -318,7 +318,7 @@ Die Abbildungen zeigen, dass die Kurvenform am Ausgang des RC-Glieds vom Verhäl
 
 Im zweiten Fll ($T/\tau = 1$ oder $\tau = T$) ist am Ausgang von der ursprünglichen Rechteckform des Signals kaum mehr etwas zu erkennen: Das Ausgangssignal ist in der ersten Halbperiode fast zu einem Dreieck geworden und auch in den nachfongenden Halbperioden wiederholt sich die Tendenz eines fast zeitproportionalen Übergangsverlaufs auf den jeweils neuen Wert. Am Signalverlauf ist zu sehen, warum ein RC-Glied in der vorliegenden Anordnung als ***Integrierglied*** bezeichnet wird - jedenfalls dann, wenn $T/\tau=1$ oder gar wenn $T/\tau << 1$ gilt. Das sieht man am einfachsten, wenn man die erste Halbperiode betrachtet, in der $u_2$ die Form einer ansteigendne Gerade hat. Eine ansteigende Gerade ist aber genau das, was man bekommt, wenn man das Integral über eine Konstate (hier die Eingangsspannung $u_1=U$) bildet. Diese Überlegung gilt auch sinngemäß auch für die folgenden Halbperioden.
 
-Im erste Fall ($T/\tau >> 1$ oder $\tau << T$) ist das Ausgangssignal $u_2$ dagegen in seiner Form wesentlich weniger verfälscht und der Recheckform des Eingangssignals $u_1$ deutlich näher. Die Schlussfolgerung asu diesen Beobachtungen lautet, dass man bei der Übertragung eines Rechtecksignals darauf achten muss, dass das Übertragungsglied eine Zeitkonstante aufweist, die die Bedingung $\tau<<T$ aufweist.
+Im erste Fall ($T/\tau >> 1$ oder $\tau << T$) ist das Ausgangssignal $u_2$ dagegen in seiner Form wesentlich weniger verfälscht und der Recheckform des Eingangssignals $u_1$ deutlich näher. Die Schlussfolgerung aus diesen Beobachtungen lautet, dass man bei der Übertragung eines Rechtecksignals darauf achten muss, dass das Übertragungsglied eine Zeitkonstante aufweist, die die Bedingung $\tau<<T$ aufweist.
 
 Im Fall $T/\tau << 1$ hat der Kondensator in jeder Halbperiode ausreichend Zeit, sich auf den jeweils geänderten Wert des Eingangssignals auf - bzw. umzuladen. 
 
@@ -328,3 +328,24 @@ Noch ein weiterer Begriff wird aus der Betrachtung der Kurvenformen deutlich: De
 
 ### RC-Hochpass
 
+Man vertauscht nun die Elemente $R$ und $C$ gegenüber der Tiefpassanordnung des vorigen Abschnitts und gelant damit zur folgenden Abbildung.
+
+```{figure} ../images/abb17.png
+---
+scale: 50%
+align: center
+---
+RC-Hochpass (Differenzierglied)
+```
+
+Um das Übertragungsverhalten dieser Anordnung zu betrachten wird auf die bisher geleistet Vorarbeit zurückgegriffen. Man unterscheidet zwischen zwei Situationen:
+
+- Zeitkonstante $\tau$ in der Größenordnung der Periodendauer $T$
+
+```{figure} ../images/abb18.png
+---
+scale: 50%
+align: center
+---
+Spannungsverläufe am RC-Hochpass für $\tau$ in der Größenordnung von $T$ (in diesem Beisipiel ist $T=12\tau$, damit liegt die Periodendauer T noch etwa in der Größenordnung von $\tau$)
+```
