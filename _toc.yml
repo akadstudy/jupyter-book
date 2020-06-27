@@ -4,6 +4,10 @@
 - file: fourier/inhalt
 - file: fourier/ausgleich
 
-- header: Inhalt
-- file: content/first
-- file: content/second
+- header: Komplexer Wechselstromkreis
+- file: wechselstrom/first
+- file: wechselstrom/second
+
+- header: Zweitore und Zweitorparameter
+- file: zweitor/inhalt
+- file: zweitor/first
