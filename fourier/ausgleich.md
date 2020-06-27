@@ -216,25 +216,27 @@ Zeitverlauf der Kondensatorspannung bei Entladevorgang
 
 Bis hierhin stand bei allen Betrachtungen das Verhalten des Kondensators und die dort auftretende Spannung $u_C(t)$ im Mittelpunkt. Jetzt interessiert mehr die Spannung $u_R(t)$ am Widerstand $R$.
 
-Zunächst wird der Aufladevorgang wieder betrachtet. Die Spannung am Widerstand ist die Differenz zwischen der am Eingang anliegenden Spannung $U$ und der Kondensatorspannung $u_C(t)$. Der Verlauf von $u_R(t) ist zusammen mit u_C(t) dargestellt.
+Zunächst wird der Aufladevorgang wieder betrachtet. Die Spannung am Widerstand ist die Differenz zwischen der am Eingang anliegenden Spannung $U$ und der Kondensatorspannung $u_C(t)$. Der Verlauf von $u_R(t)$ ist zusammen mit $u_C(t)$ dargestellt.
 
 ```{figure} ../images/abb10.png
 ---
 scale: 50%
 align: center
 ---
-Spannungsverläufe $u_R(t) und u_C(t)$ beim Aufladevorgang im RC-Stromkreis
+Spannungsverläufe $u_R(t)$ und $u_C(t)$ beim Aufladevorgang im RC-Stromkreis
 ```
 
-Entsprechend wird der Entladevorgang betrachtet. Der Verlauf von $u_R(t) ist zusammen mit $u_C(t) dargestellt.
+Entsprechend wird der Entladevorgang betrachtet. Der Verlauf von $u_R(t)$ ist zusammen mit $u_C(t)$ dargestellt.
 
 ```{figure} ../images/abb11.png
 ---
 scale: 50%
 align: center
 ---
-Spannungsverläufe $u_R(t) und u_C(t)$ beim Entladevorgang im RC-Stromkreis
+Spannungsverläufe $u_R(t)$ und $u_C(t)$ beim Entladevorgang im RC-Stromkreis
 ```
+
+An dieser Stelle werden die bisher erarbeiteten Abschnitte zusammgefasst.
 
 > In Stromkreisen sind Kapazität und Induktivität energiespeichernde Elemente. Weil Energie nicht unendlich schnell transportiert werden kann, entsteht nach einem Schaltvorgang in einem Stromkreis ein Ausgleichsvorgang. Bei der RC-Serienschaltung besteht dieser aus einem verzögerten Anstieg oder einem verzögerten Abfall der Kondensatorspannung. Schaltet man auf die Serienschaltung eine Gleichspannung, so lässt sich mit einer Differenzialgleichung berechnen, dass die Spannung am Kondensator in der Form einer e-Funktion verläuft. Charaktersitische für den Ausgleichsvorgang ist die Zeitkonstante $\tau=R \cdot C$, die auch messtechnisch aus dem Signalverlauf ermittelt werden kann. 
 
@@ -244,9 +246,41 @@ Spannungsverläufe $u_R(t) und u_C(t)$ beim Entladevorgang im RC-Stromkreis
 
 Nun wird die Wikrung einer Anordnung, bei der eine Spule die Rolle des Kondensators einnimmt. Diese RL-Serienschaltung wird in der folgenden Abbildung dargestellt. Die Rechnung erfolgt analog zur Behandlung der Kondensatorschaltung im vorigen Abschnitt. Auch hier wird der Schalter bei $t=0$ geschlossen.
 
+Damit hat auch die Kurve des Stromverlaufs die analoge Form
+
+```{figure} ../images/abb12.png
+---
+scale: 50%
+align: center
+---
+Zeitverlauf des Stroms im ohmsch-induktiven Stromkreis
+```
+
+Es ist bemerkenswert, dass es bei einer Induktivität nun der Strom ist, der das verzögerte Anstiegsverhalten aufweist - gerade umgekehrt wie beim Kondensator, bei dem es die Spannung war, die das verzögerte Verhalten aufgewiesen hatte. Weil der Strom unmittelbar nach dem Einlegen des Schalters null ist, müssen außerdem festgehalten werden:
+
+> Im Momeent des Einschaltens verhält sich eine stromlose Induktivität wie eine Unterbrechung des Stromkreises.
+
+Abschließen kann man auch noch den Verlauf der Spannung an der Spule bestimmen.
+
+```{figure} ../images/abb13.png
+---
+scale: 50%
+align: center
+---
+Zeitverlauf der Spulenspannung im ohmsch-induktiven Stromkreis
+```
+
 ### Messtechnische Betrachtungen
 
+Auch bei der RL-Anordnung kann man aus einer Messung des Strom- oder des Spannungsverlaufs die Zeitkonstante $\tau$ ermitteln. Ebenso ergibt sich mit der Tangentenmethode oder aus dem Funktionswert bei 63$\%$ bzw. 47$\%$.
+
+Es sollen die Erkenntnisse über RL-Serienschaltungen zusammengefasst werden.
+
+> Die Betrachtung der RL-Serienschaltung ergibt eine ähnliche Differenzialgleichung wie bei der RC-Serienschaltung. Nur ist hier die entscheidende Größe der Strom. Die für das Schalten von Gleichspannung ermittelten Kurven haben dieselbe Form wie beim RC-Kreis.
+
 ## Übertragung von Rechtecksignalen
+
+
 
 ### RC-Tiefpass
 
