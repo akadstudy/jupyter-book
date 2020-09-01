@@ -20,6 +20,8 @@ Lässt man den Zusatz "in einem Intervall I" weg, bedeutet dies, dass die Funkti
 
 ## Periodizität
 
+Eine Funktion $y=f(x)$ heißt *periodisch* mit der *Periode p*, wenn für alle $x \in D(f)$ und $x \pm p \in D(f)$ gill: $f(x) = f(x \pm p)$
+
 ## Symmetrie
 
 ## Invertierbarkeit
