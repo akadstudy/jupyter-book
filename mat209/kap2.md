@@ -42,3 +42,14 @@ $$f(x_0+x) = 2y_0 - f(x_0 -x)$$
 
 ## Invertierbarkeit
 
+Eine Funktion $y=(x)$ heißt *umkehrbar* oder *invertierbar* oder *injektiv*, wenn für alle $x_1 \neq x_2$ gilt:
+
+$$f(x_1) \neq f(x_2)$$
+
+Eine Funktion $y=f(x)$ heißt *umkehrbar* oder *invertierbar* oder *injektiv* im Intervall I, wenn für alle $x_1, x_2 \in I$ mit $x_1 \neq x_2$ gilt:
+
+$$f(x_1) \neq f(x_2)$$
+
+Invertierung einer Funktion:
+
+$$ y=f(x) \rightarrow x=f^{-1}(y) \rightarrow y=f^{-1}(x)$$
