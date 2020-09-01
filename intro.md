@@ -2,7 +2,7 @@
 
 Diese beinhalten:
 
-- Mathematik
+- **Mathematik**
 	- Einführung in Matlab (MAT208)
 	- Funktionen und ihre Eigenschaften (MAT209)
 	- Ganzrationale und gebrochenrationale Funktionen, Potenzen- und Wurzelfunktionen, Exponenzial- und Logarithmusfunktionen (MAT210)
@@ -21,7 +21,7 @@ Diese beinhalten:
 	- Fourier- und z-Transformation (IMA604)
 	- Anwendungen von - Integraltransformationen (IMA605)
 	- Grundlagen und Technik der Differenzialrechnung (WM201)
-- Physik 
+- **Physik** 
 	- Physikalisches Messen, Kinematik (PHY101)
 	- Mechanik: Impuls, Kraft und Energie (PHY102)
 	- Mechanik der Flüssigkeiten und Gase, Schwingungen und Wellen (PHY103)
@@ -32,7 +32,7 @@ Diese beinhalten:
 	- Zusammenfassung und Formelsammlung (PHY213)
 	- Felder (PHY214)
 	- Bauelemente der Halbleiter-Elektronik (PHY501)
-- Mechanik
+- **Mechanik**
 	- Ebene Kräftesysteme (TME101)
 	- Statik ebener Tragwerke (TME102)
 	- Schwerpunkte, Schnittgrößen ebener Balkentragwerke (TME103)
@@ -43,7 +43,7 @@ Diese beinhalten:
 	- Kinematik starrer Körper (TME302)
 	- Kinetik starrer Körper (TME303)
 	- Einführung in die Schwingungslehre (TME304)
-- Konstruktion
+- **Konstruktion**
 	- Technisches Zeichnen (KON101)
 	- Normzahlen, Toleranzen und Passungen; Klebe-, Löt- und Schweißverbindungen (MAE101)
 	- Niet-, Schrauben-, Bolzen- und Stiftverbindungen (MAE102)
@@ -58,13 +58,13 @@ Diese beinhalten:
 	- Virtuelle Produktentwicklung (CAD101)
 	- CAD-Systeme (CAD102)
 	- Computergestütztes Entwerfen und Konstruieren (CAD201)
-- Werkstoffkunde
+- **Werkstoffkunde**
 	- Verhalten und Werkstoffeigenschaften von Polymeren im Schmelzflüssigen Zustand: grundlegende Verarbeitungsverfahren
 	- Werkstoffprüfung
 	- Metallische Werkstoffe (WST105-BH)
 	- Aufbau, Verhalten und Werkstoffeigenschaften von Polymeren im festen Zustand (WST201-BH)
 	- Eigenschaft, Verhalten und Prüfen von Kunststoffen (WST302)
-- Programmieren
+- **Programmieren**
 	- Vom Datenmodell zur Speicherung in Dateien (DAO101)
 	- Zahlensysteme und Codes (ELT301)
 	- Boolesche Algebra und kombinatorische Schaltkreise (ELT302)
@@ -76,7 +76,7 @@ Diese beinhalten:
 	- Einführung in die Programmierung mit C++ (CPP101)
 	- Programmierung in C (CPP109)
 	- Programmieren in C++ (CPP110)
-- Elektrotechnik
+- **Elektrotechnik**
 	- Grundbegriffe und Gleichstromkreise (ELT211)
 	- Verfahren zur Berechnung elektrischer Netzwerke (ELT225)
 	- Elektrisches Feld und Kondensator (ELT226)
@@ -86,14 +86,14 @@ Diese beinhalten:
 	- Netzwerkberechnungen der Wechselstromtechnik (ELT233)
 	- Frequenzabhängigkeit der Wechselstromkreise (ELT235)
 	- Übertragungsfunktionen, nichtsinusförmige Größen (ELT238)
-- Regelungstechnik
+- **Regelungstechnik**
 	- Signale und Systeme (REG202)
 	- Grundlagen und Beschreibung dynamischer Systeme (REG101)
 	- Mathematische Beschreibung und Entwurf von Regelungen (REG102)
 	- Zustandraumdarstellung, Modellbildung und Identifikation (REG103)
 	- Steuerungsarten, Schaltalgebra und SPS (STT101)
 	- Kommunikation zwischen Automatisierungssystemen (STT102)
-- Systemdynamik
+- **Systemdynamik**
 	- Grundlagen der Echtzeitsysteme (SYS201)
 	- Software in Echtzeitsysteme (SYS202)
 	- Verteilte Echtzeitanwendungen (SYS203)
@@ -103,7 +103,7 @@ Diese beinhalten:
 	- Zustandsraumdarstellung II (SYS102)
 	- Digitale Regelung (SYS103)
 	- Nichtlineare Regelung (SYS104)
-- Robotik
+- **Robotik**
 	- Einführung in die Robotik (ROB101)
 	- Roboter-Kinematik (ROB102)
 	- Roboter-Dynamik und -Regelung (ROB103)
@@ -116,7 +116,7 @@ Diese beinhalten:
 	- NC-Werkzeugmaschinen und rechnergestützte Fertigung (FTE204)
 	- Kunststoffverarbeitung und NC-Programmierung (FTE301)
 	- Programmierung von Industrierobotern (FTE501)
-- Messtechnik
+- **Messtechnik**
 	- Einführung, Grundlagen und Fehlerrechnung (MST101)
 	- Messprinzipien und Sensoren (MST102)
 	- Grundlagen des Programmierens und Messdatenerfassung mit LabView (MST202)
@@ -129,24 +129,24 @@ Diese beinhalten:
 	- Signalübertragung in der Sensorik (SEN102)
 	- Magnetfeldempfindliche Sensoren (SEN103)
 	- Beispiele für Sensorapplikationen (SEN104)
-- Microkontrollersysteme
+- **Microkontrollersysteme**
 	- Passive Bauelemente und Grundschaltungen (ELT201)
 	- Grundlagen der Halbleiterbauelemente (ELT202)
 	- Transistorgrundschaltungen, weitere Halbleiterbauelemente (ELT203)
 	- Verstärker und Kippstufen (ELT204)
 	- Digitale Schaltungstechnik (ELT205)
 	- Elektroniksimulation mit PSPICE (ELT206)
-	- Grundlagen der Mikrocomupter-Systeme
-	- Mikrocontroller und Schnittstellen
-	- Programmierung von Mikrocomputer-Systemen
-	- Anwendungen von Mikrocomputer-Systemen
-- Softwareentwicklung
+	- Grundlagen der Mikrocomputer-Systeme (MCS101)
+	- Mikrocontroller und Schnittstellen (MCS102)
+	- Programmierung von Mikrocomputer-Systemen (MCS103)
+	- Anwendungen von Mikrocomputer-Systemen (MCS104)
+- **Softwareentwicklung**
 	- Einführung in die Systementwicklung (SWE101)
 	- Softwaremanagement (SWE101)
 	- Funktionsorientierte Softwareentwicklung (SWE203)
 	- Objektorientierte Softwareentwicklung (SWE204)
 	- Software-Ergonomie und Interaktionsdesign im Internet (SWE205)
-- Betriebswirtschaft
+- **Betriebswirtschaft**
 	- Gesamtwirtschaftliche Zusammenhänge, Unternehmen und Unternehmenswelt(BWL101)
 	- Gründung eines Unternehmens (BWL102)
 	- Grundlagen des Produktionsmanagements (BWL103)
@@ -162,7 +162,7 @@ Diese beinhalten:
 	- Projekte abwickeln und abschließen (SQF402)
 	- Führen in Projekten und begleitende Aufgaben (SQF403)
 	- Multiprojektmanagement (SQF404)
-- Projektarbeit und Schlüsselqualifikationen
+- **Projektarbeit und Schlüsselqualifikationen**
 	- Projektaufbau, Funktionen und Managementtechniken (SQF201)
 	- Projekt initialisieren und planen (SQF401)
 	- Projekte abwickeln und abschließen (SQF402)
