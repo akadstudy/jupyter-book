@@ -11,3 +11,22 @@ Eine Funktion $y=f(x)$ ist eine Vorschrift, die jedem Element $x \in D$ genau ei
 * y heißt *abhängige Variable* oder *Funktionswert*.
 
 * W heißt *Wertebereich* der Funktion. 
+
+--- 
+
+## Darstellungsformen einer Funktion
+
+Explizite analytische Darstellung einer Funktion $y=f(x)$
+
+---
+
+## Analytische Darstellung einer Funktion
+
+---
+
+## Grafische Darstellung einer Funktion
+
+---
+
+## Parameterdarstellung einer Funktion
+
