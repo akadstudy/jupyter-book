@@ -32,7 +32,13 @@ Eine Funktion $y=f(x)$ heißt *spiegelsymmetrisch zur Geraden* $x=x_0$, wenn im 
 
 $$f(x_0+x) = f(x_0 - x)$$
 
+Eine Funktion $y = f(x)$ heißt *ungerade Funktion* oder *punktsymmetrisch zum Ursprung*, wenn im gesamten Definitionsbereich gilt:
 
+$$f(x) = -f(-x)$$
+
+Eine Funktion $y=f(x)$ heißt *punktsymmetrisch zum Punkt* $x_0, y_0$, wenn im gesamten Definitionsbereich gilt:
+
+$$f(x_0+x) = 2y_0 - f(x_0 -x)$$
 
 ## Invertierbarkeit
 
