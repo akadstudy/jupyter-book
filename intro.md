@@ -1,9 +1,57 @@
-# Mein erstes Buch
+# Zusammenfassungen 
 
-Hier werde ich meine Gedanken zu den drei Schwerpunktthemen veröffenlichen.
-Die Themen gliedern sich in folgende Punkte:
+Diese beinhalten:
 
-- Fourier-Entwicklung
-- Komplexer Wechselstromkreis
-- Zweitore und Zweitorparameter
-
+- Mathematik
+	- Einführung in Matlab (MAT208)
+	- Funktionen und ihre Eigenschaften (MAT209)
+	- Ganzrationale und gebrochenrationale Funktionen, Potenzen- und Wurzelfunktionen, Exponenzial- und Logarithmusfunktionen (MAT210)
+	- Trigonometrische und verwandte Funktionen (MAT211)
+	- Folgen und Reihen (MAT212)
+	- Lineare Gleichungssysteme (MAT213)
+	- Vektorrechnung und Analytische Geometrie (MAT214)
+	- Lineare Algebra (MAT215)
+	- Komplexe Zahlen und Funktionen (MAT216)
+	- Anwendungen der Differenzialrechnung (IMA401)
+	- Grundlagen und Anwendungen der Integralrechnung (IMA402)
+	- Grundlagen der Numerischen Mathematik (IMA403)
+	- Gewöhnlihce Differenzialgleichungen (IMA601)
+	- Differenzial- und Integralrechnung mehrerer Veränderlicher (IMA602)
+	- Laplace-Transformation (IMA603)
+	- Fourier- und z-Transformation (IMA604)
+	- Anwendungen von - Integraltransformationen (IMA605)
+	- Grundlagen und Technik der Differenzialrechnung (WM201)
+- Physik 
+- Mechanik
+- Konstruktion
+- Werkstoffkunde
+	- Verhalten und Werkstoffeigenschaften von Polymeren im Schmelzflüssigen Zustand: grundlegende Verarbeitungsverfahren
+	- Werkstoffprüfung
+	- Metallische Werkstoffe (WST105-BH)
+	- Aufbau, Verhalten und Werkstoffeigenschaften von Polymeren im festen Zustand (WST201-BH)
+	- Eigenschaft, Verhalten und Prüfen von Kunststoffen (WST302)
+- Programmieren
+	- Vom Datenmodell zur Speicherung in Dateien (DAO101)
+	- Zahlensysteme und Codes (ELT301)
+	- Boolesche Algebra und kombinatorische Schaltkreise (ELT302)
+	- Sequenzielle Schaltungen, Schaltwerke und Simulationssoftware
+	- Grundlagen der Programmierung (PRG101)
+	- Hardware (WIN103)
+	- Software (WIN104)
+	- Rechnerverbund und Datenkommunikation (WIN106)
+- Elektrotechnik
+- Regelungstechnik
+- Systemdynamik
+- Robotik
+- Messtechnik
+- Microkontrollersysteme
+- Softwareentwicklung
+- Betriebswirtschaft
+	- Gesamtwirtschaftliche Zusammenhänge, Unternehmen und Unternehmenswelt(BWL101)
+	- Gründung eines Unternehmens (BWL102)
+	- Grundlagen des Produktionsmanagements (BWL103)
+	- Marketing (BWL104)
+	- Personalmanagement (BWL105)
+	- Rechnungswesen (BWL106)
+	- Grundlagen Unternehmensführung (BWL107)
+- Projektarbeit
