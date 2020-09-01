@@ -124,6 +124,10 @@ Diese beinhalten:
 	- Verstärker und Kippstufen (ELT204)
 	- Digitale Schaltungstechnik (ELT205)
 	- Elektroniksimulation mit PSPICE (ELT206)
+	- Grundlagen der Mikrocomupter-Systeme
+	- Mikrocontroller und Schnittstellen
+	- Programmierung von Mikrocomputer-Systemen
+	- Anwendungen von Mikrocomputer-Systemen
 - Softwareentwicklung
 	- Einführung in die Systementwicklung (SWE101)
 	- Softwaremanagement (SWE101)
@@ -146,7 +150,13 @@ Diese beinhalten:
 	- Projekte abwickeln und abschließen (SQF402)
 	- Führen in Projekten und begleitende Aufgaben (SQF403)
 	- Multiprojektmanagement (SQF404)
-- Projektarbeit
+- Projektarbeit und Schlüsselqualifikationen
 	- Projektaufbau, Funktionen und Managementtechniken (SQF201)
 	- Projekt initialisieren und planen (SQF401)
 	- Projekte abwickeln und abschließen (SQF402)
+	- Selbstmanagement (SQF232)
+	- Ziel- und Zeitmanagement (SQF233)
+	- Kreative Kompetenz (SQF234)
+	- Zielsicher präsentieren (SQF235)
+	- Wissenschaftliches Arbeiten (SQL301)
+	- Vorgaben für wissenschaftliche Studien- und Abschlussarbeiten (SQLD302)
