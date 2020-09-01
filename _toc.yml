@@ -1,13 +1,11 @@
 - file: intro
 
-- header: Fourier-Entwicklung
-- file: fourier/inhalt
-- file: fourier/ausgleich
-- file: fourier/uebertragung
-- file: fourier/ueberlagerung
-- file: fourier/fourierkoeffizient
-- file: fourier/verzerrung
-- file: fourier/kennwerte
+- header: MAT209
+- file: mat209/kap1
+- file: mat209/kap2
+- file: mat209/kap3
+- file: mat209/kap4
+
 
 - header: Komplexer Wechselstromkreis
 - file: wechselstrom/first

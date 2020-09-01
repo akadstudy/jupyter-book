@@ -1,2 +1,0 @@
-# Lineare und nichtlineare Verzerrungen
-
