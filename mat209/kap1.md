@@ -18,15 +18,9 @@ Eine Funktion $y=f(x)$ ist eine Vorschrift, die jedem Element $x \in D$ genau ei
 
 Explizite analytische Darstellung einer Funktion $y=f(x)$
 
----
+Implizite analytische Darstellung einer "Funktion": $F(x,y)=0$
 
-## Analytische Darstellung einer Funktion
+Eine Stelle $x_0$ heißt *Nullstelle* der Funktion $y=f(x)$, wenn gilt $f(x_0)=0$
 
----
-
-## Grafische Darstellung einer Funktion
-
----
-
-## Parameterdarstellung einer Funktion
+Parameterdarstellung: $(x(t)), y(t)), t \in [t_0, t_1] \subset \mathbb{R}$
 
