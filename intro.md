@@ -104,6 +104,18 @@ Diese beinhalten:
 	- Digitale Regelung (SYS103)
 	- Nichtlineare Regelung (SYS104)
 - Robotik
+	- Einführung in die Robotik (ROB101)
+	- Roboter-Kinematik (ROB102)
+	- Roboter-Dynamik und -Regelung (ROB103)
+	- Bahnplanung und Programmierung (ROB104)
+	- Industrielle Bildverarbeitung (ROB201)
+	- Methoden und Algorithmen der 2D-Bildverarbeitung (ROB202)
+	- Problemlösungen mit 2D-Bildverarbeitung (ROB203)
+	- Fortgeschrittene Bildverarbeitung (ROB204)
+	- Werkzeugmaschinen: Grundlagen und Aufbau (FTE201)
+	- NC-Werkzeugmaschinen und rechnergestützte Fertigung (FTE204)
+	- Kunststoffverarbeitung und NC-Programmierung (FTE301)
+	- Programmierung von Industrierobotern (FTE501)
 - Messtechnik
 	- Einführung, Grundlagen und Fehlerrechnung (MST101)
 	- Messprinzipien und Sensoren (MST102)
