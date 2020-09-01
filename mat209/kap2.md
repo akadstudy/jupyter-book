@@ -1,15 +1,11 @@
-# Bestimmung der Fourier-Koeffizienten
+# Grundlegende Eigenschaften einer Funktion
 
-## Reelle Koeffizienten
+## Monotonie
+
+## Krümmung
+
+## Periodizität
 
 ## Symmetrie
 
-### Gerade Funktion
-
-### Ungerade Funktion
-
-### Alternierende Funktionen
-
-## Beispielhafte Berechnungen
-
-## Komplexe Koeffizienten
+## Invertierbarkeit

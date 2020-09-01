@@ -1,8 +1,11 @@
-# Kennwerte nichtsinusförmiger periodischer Größen
+# Grenzwerte und Stetigkeit
 
-## Effektivwert
+## Grenzwerte für $x \rightarrow x_0$
 
-## Kennwerte für die Verzerrung
+## Grenzwerte für $x \rightarrow \pm \infty$
 
-## Leistungsgrößen
+## Grenzwerte elementarer Funktionen
 
+## Rechnen mit Grenzwerten
+
+## Stetigkeit
