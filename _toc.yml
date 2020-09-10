@@ -7,9 +7,9 @@
 - file: mat209/kap4
 
 
-- header: Komplexer Wechselstromkreis
-- file: wechselstrom/first
-- file: wechselstrom/second
+- header: MAT210
+- file: mat210/kap1
+- file: mat210/kap2
 
 - header: Zweitore und Zweitorparameter
 - file: zweitor/inhalt
