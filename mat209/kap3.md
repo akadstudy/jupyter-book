@@ -3,7 +3,7 @@
 ## Verschiebung eines kartesischen Koordinatensystems
 
 Transformationsgleichungen zwischen alten Koordinaten (x,y) und neuen Koordinaten 
-$$
+$
 \left\{
 \begin{array}
 \tilde{x} = x - x_0 \\
@@ -16,7 +16,7 @@ xx = \tilde{x} + x_0 \\
 y = \tilde{y} + y_0
 \end{array}
 \right\}
-$$
+$
 
 
 
