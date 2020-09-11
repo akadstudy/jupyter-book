@@ -101,7 +101,18 @@ $
 \lim \limits_{x \to \infty} f(x) = y_0 \quad oder \quad f(x) \overset{ x \rightarrow -\infty}{\longrightarrow} y_0
 $
 
+Schreibweise der uneigentlichen Grenzwerte für $x \rightarrow \pm \infty$
+
+$
+\lim \limits_{x \to \infty} f(x) = +\infty \quad oder \quad f(x) \overset{x \rightarrow \infty}\longrightarrow +\infty \\
+\lim \limits_{x \to \infty} f(x) = -\infty \quad oder \quad f(x) \overset{x \rightarrow \infty}\longrightarrow -\infty \\
+\lim \limits_{x \to -\infty} f(x) = +\infty \quad oder \quad f(x) \overset{x \rightarrow -\infty}\longrightarrow +\infty \\
+\lim \limits_{x \to -\infty} f(x) = -\infty \quad oder \quad f(x) \overset{x \rightarrow -\infty}\longrightarrow -\infty
+$
+
 ## Grenzwerte elementarer Funktionen
+
+
 
 ## Rechnen mit Grenzwerten
 
