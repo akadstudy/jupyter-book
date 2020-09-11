@@ -112,7 +112,11 @@ $
 
 ## Grenzwerte elementarer Funktionen
 
+### Potenzfunktionen ($x^n; x^{-n}$)
 
+$
+\lim \limits_{x \to \infty} x^n = \infty
+$
 
 ## Rechnen mit Grenzwerten
 
