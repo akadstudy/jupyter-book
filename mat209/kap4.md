@@ -234,3 +234,20 @@ $
 
 ## Stetigkeit
 
+Eine Funktion $y = f(x)$ heißt an der Stelle $x_0$ ***stetig***, wenn ihr Grenzwert dort existiert und gleich dem Funktionswert an dieser Stelle ist:
+
+$
+\lim \limits_{x \to x_0}{f(x) = f(x_0)}
+$
+
+Eine Funktion $f_x$ heißt an der Stelle $x_0$ ***rechtseitig stetig***, wenn ihr rechtsseitiger Grenzwert dort existiert und gleich dem Funktionswert an dieser Stelle ist:
+
+$
+\lim \limits_{x \searrow x_0}{f(x) = f(x_0)}
+$
+
+Eine Funktion $f_x$ heißt an der Stelle $x_0$ ***linksseitig stetig***, wenn ihr linksseitiger Grenzwert dort existiert und gleich dem Funktionswert an dieser Stelle ist:
+
+$
+\lim \limits_{x \nearrow x_0}{f(x) = f(x_0)}
+$
