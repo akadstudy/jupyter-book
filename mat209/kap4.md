@@ -216,6 +216,20 @@ $
 \lim \limits_{x \to 0^+}{(ln x) = -\infty}
 $
 
+### Sonstige elementare Grenzwerte
+
+$
+\lim \limits_{x \to \infty}{(1 + \frac{1}{x})^x} = \lim \limits_{x \to 0^+}{(1 + x)^\frac{1}{x} = e}
+$
+
+$
+\lim \limits_{x \to \infty}{(1 - \frac{1}{x})^x} = \lim \limits_{x \to 0^+}{(1 - x)^\frac{1}{x} = \frac{1}{e}}
+$
+
+$
+\lim \limits_{x \to \infty}{\frac{x^n}{e^x}} = 0 (n \in \real)
+$
+
 
 ## Rechnen mit Grenzwerten
 
