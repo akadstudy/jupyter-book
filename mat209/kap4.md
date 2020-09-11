@@ -1,5 +1,7 @@
 # Grenzwerte und Stetigkeit
 
+## Grenzwerte für $x \rightarrow x_0$
+
 Der ***(zweiseitige) Grenzwerte*** der Funktion $y=f(x)$ an der Stelle $x_0$ existiert und ist gleich $y_0$, wenn für alle $\epsilon > 0$ ein $\delta > 0$ existiert, so dass gilt:
 
 $
@@ -71,7 +73,7 @@ $
 \lim \limits_{x \to x_0} f(x) = -\infty \quad oder \quad f(x) \overset{ x \rightarrow x_0 }{\longrightarrow} -\infty
 $
 
-## Grenzwerte für $x \rightarrow x_0$
+## Grenzwerte für $x \rightarrow \pm \infty$
 
 Der ***Grenzwert*** der Funktion $y=f(x)$ für $x \rightarrow \infty$ existiert und ist gleich $y_0$, wenn für alle $\epsilon > 0$ ein $M$ existiert, so dass gilt:
 
@@ -79,7 +81,11 @@ $
 x > M \Rightarrow |f(x) - y_0| < \epsilon
 $
 
-## Grenzwerte für $x \rightarrow \pm \infty$
+Schreibweisen für den Grenzwert für $x \rightarrow \infty$:
+
+$
+\lim \limits_{x \to x_0} f(x) = y_0 \quad oder \quad f(x) \overset{ x \rightarrow \infty}{\longrightarrow} y_0
+$
 
 ## Grenzwerte elementarer Funktionen
 
