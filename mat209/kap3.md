@@ -25,7 +25,7 @@ Transformationsgleichungen zwischen alten Koordinaten (x,y) und neuen Koordinate
 
 $
 \tilde{x} = cos({\varphi})x + sin(\varphi)y \\
-\tilde{y} = -sin{\varphi}x + cos(\varphi)y
+\tilde{y} = -sin({\varphi})x + cos(\varphi)y
 $
 
 ## Transformation von kartesischen Koordinaten zu Polarkoordinaten
