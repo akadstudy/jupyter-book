@@ -196,11 +196,27 @@ $
 $
 \lim \limits_{x \to \infty^+} a^x = 
 \begin{cases}
-0 & \text{für 0 < a < 1} \\
+\infty & \text{für 0 < a < 1} \\
 1 & \text{für a = 1} \\
-\infty & \text{für a > 1}
+0 & \text{für a > 1}
 \end{cases}
 $
+
+### Logarithmusfunktionen ($ln x$ und $log_a$ mit $a>1$) 
+
+$
+\lim \limits_{x \to \infty}{(ln x) = \infty}
+$
+
+$
+\lim \limits_{x \to 1}{(ln x) = 0}
+$
+
+$
+\lim \limits_{x \to 0^+}{(ln x) = -\infty}
+$
+
+
 ## Rechnen mit Grenzwerten
 
 ## Stetigkeit
