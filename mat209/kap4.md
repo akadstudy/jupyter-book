@@ -184,6 +184,23 @@ $
 "e^0" = 1
 $
 
+$
+\lim \limits_{x \to \infty^+} a^x = 
+\begin{cases}
+0 & \text{für 0 < a < 1} \\
+1 & \text{für a = 1} \\
+\infty & \text{für a > 1}
+\end{cases}
+$
+
+$
+\lim \limits_{x \to \infty^+} a^x = 
+\begin{cases}
+0 & \text{für 0 < a < 1} \\
+1 & \text{für a = 1} \\
+\infty & \text{für a > 1}
+\end{cases}
+$
 ## Rechnen mit Grenzwerten
 
 ## Stetigkeit
