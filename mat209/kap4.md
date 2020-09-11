@@ -227,10 +227,10 @@ $
 $
 
 $
-\lim \limits_{x \to \infty}{\frac{x^n}{e^x}} = 0 (n \in \real)
+\lim \limits_{x \to \infty}{\frac{x^n}{e^x}} = 0 (n \in \mathbb{R})
 $
 
-
-## Rechnen mit Grenzwerten
+<!-- ## Rechnen mit Grenzwerten -->
 
 ## Stetigkeit
+
