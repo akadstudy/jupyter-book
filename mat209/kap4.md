@@ -84,7 +84,21 @@ $
 Schreibweisen für den Grenzwert für $x \rightarrow \infty$:
 
 $
-\lim \limits_{x \to x_0} f(x) = y_0 \quad oder \quad f(x) \overset{ x \rightarrow \infty}{\longrightarrow} y_0
+\lim \limits_{x \to \infty} f(x) = y_0 \quad oder \quad f(x) \overset{ x \rightarrow \infty}{\longrightarrow} y_0
+$
+
+<!-- test -->
+
+Der ***Grenzwert*** der Funktion $y=f(x)$ für $x \rightarrow -\infty$ existiert und ist gleich $y_0$, wenn für alle $\epsilon > 0$ ein $M$ existiert, so dass gilt:
+
+$
+x < M \Rightarrow |f(x) - y_0| < \epsilon
+$
+
+Schreibweisen für den Grenzwert für $x \rightarrow -\infty$:
+
+$
+\lim \limits_{x \to \infty} f(x) = y_0 \quad oder \quad f(x) \overset{ x \rightarrow -\infty}{\longrightarrow} y_0
 $
 
 ## Grenzwerte elementarer Funktionen
