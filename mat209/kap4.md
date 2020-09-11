@@ -70,7 +70,14 @@ Schreibweisen für den uneigentlichen Grenzwert $-\infty$:
 $
 \lim \limits_{x \to x_0} f(x) = -\infty \quad oder \quad f(x) \overset{ x \rightarrow x_0 }{\longrightarrow} -\infty
 $
+
 ## Grenzwerte für $x \rightarrow x_0$
+
+Der ***Grenzwert*** der Funktion $y=f(x)$ für $x \rightarrow \infty$ existiert und ist gleich $y_0$, wenn für alle $\epsilon > 0$ ein $M$ existiert, so dass gilt:
+
+$
+x > M \Rightarrow |f(x) - y_0| < \epsilon
+$
 
 ## Grenzwerte für $x \rightarrow \pm \infty$
 
