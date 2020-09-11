@@ -118,6 +118,35 @@ $
 \lim \limits_{x \to \infty} x^n = \infty
 $
 
+$
+"\infty^n " = \infty
+$
+
+$
+\lim \limits_{x \to \infty} \frac{1}{x^n} = 0
+$
+
+$
+"\frac{1}{\infty}" = 0
+$
+
+$
+\lim \limits_{x \to \infty} x^n = 0
+$
+
+$
+"0^n " = 0
+$
+
+$
+\lim \limits_{x \to \infty^+} \frac{1}{x^n} = \infty
+$
+
+$
+"\frac{1}{0^+}" = \infty
+$
+
+
 ## Rechnen mit Grenzwerten
 
 ## Stetigkeit
