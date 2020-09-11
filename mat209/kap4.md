@@ -164,6 +164,26 @@ $
 \lim \limits_{x \to \infty} e^x = \lim \limits_{x \to -\infty} e^{-x} = \infty
 $
 
+$
+"e^\infty" = \infty
+$
+
+$
+\lim \limits_{x \to -\infty} e^x = \lim \limits_{x \to \infty} e^{-x} = 0^+
+$
+
+$
+"e^{-\infty}" = 0^+
+$
+
+$
+\lim \limits_{x \to \infty} e^x = \lim \limits_{x \to \infty} e^{-x} = 1
+$
+
+$
+"e^0" = 1
+$
+
 ## Rechnen mit Grenzwerten
 
 ## Stetigkeit
