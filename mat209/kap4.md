@@ -146,6 +146,14 @@ $
 "\frac{1}{0^+}" = \infty
 $
 
+$
+\lim \limits_{x \to \infty^+} \frac{1}{x^n} = 
+\begin{cases}
++\infty & \text{falls \textit{n} gerade} \\
+-\infty & \text{falls \textit{n} ungerade}
+\end{cases}
+$
+
 
 ## Rechnen mit Grenzwerten
 
