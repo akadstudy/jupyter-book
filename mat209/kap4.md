@@ -47,8 +47,29 @@ $
 \lim \limits_{x \to x_0} f(x) = y_0  \Longleftrightarrow \lim \limits_{x \nearrow x_0} {f(x) = \lim \limits_{x \searrow x_0} f(x) = y_0} 
 $
 
-Der ***Grenzwert*** der Funktion $y = f(x)$ an der Stelle $x_0$ ***existiert uneigentlich*** und ist gleich  $+\infty$, wenn für alle $K > 0$ ein $\delta > 0$ existiert, so dass gil:
+Der ***Grenzwert*** der Funktion $y = f(x)$ an der Stelle $x_0$ ***existiert uneigentlich*** und ist gleich  $+\infty$, wenn für alle $K > 0$ ein $\delta > 0$ existiert, so dass gilt:
 
+$
+|x - x_0| < \delta \Rightarrow f(x) > K
+$
+
+Schreibweisen für den uneigentlichen Grenzwert $+\infty$:
+
+$
+\lim \limits_{x \to x_0} f(x) = +\infty \quad oder \quad f(x) \overset{ x \rightarrow x_0 }{\longrightarrow} +\infty
+$
+
+Der ***Grenzwert*** der Funktion $y = f(x)$ an der Stelle $x_0$ ***existiert uneigentlich*** und ist gleich  $-\infty$, wenn für alle $K < 0$ ein $\delta > 0$ existiert, so dass gilt:
+
+$
+|x - x_0| < \delta \Rightarrow f(x) < K
+$
+
+Schreibweisen für den uneigentlichen Grenzwert $-\infty$:
+
+$
+\lim \limits_{x \to x_0} f(x) = -\infty \quad oder \quad f(x) \overset{ x \rightarrow x_0 }{\longrightarrow} -\infty
+$
 ## Grenzwerte für $x \rightarrow x_0$
 
 ## Grenzwerte für $x \rightarrow \pm \infty$
