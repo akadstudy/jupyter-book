@@ -149,8 +149,8 @@ $
 $
 \lim \limits_{x \to \infty^+} \frac{1}{x^n} = 
 \begin{cases}
-+\infty & \text{falls ***n*** gerade} \\
--\infty & \text{falls ***n*** ungerade}
++\infty & \text{falls n gerade} \\
+-\infty & \text{falls n ungerade}
 \end{cases}
 $
 
@@ -160,7 +160,9 @@ $
 
 ### Exponentialfunktionen ($e^x; a^x$)
 
-
+$
+\lim \limits_{x \to \infty} e^x = \lim \limits_{x \to -\infty} e^{-x} = \infty
+$
 
 ## Rechnen mit Grenzwerten
 
