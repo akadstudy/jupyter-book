@@ -1,3 +1,9 @@
-# Zweites Kapitel MAT210
+# Gebrochen-rationale Funktionen
 
-Zweites Kapitel MAT210
+## Definition einer gebrochen-rationalen Funktion
+
+## Nullstellen und Polstellen
+
+## Asymptoten im Unendlichen
+
+## Partialbruchzerlegung

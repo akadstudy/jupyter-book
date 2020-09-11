@@ -10,6 +10,9 @@
 - header: MAT210
 - file: mat210/kap1
 - file: mat210/kap2
+- file: mat210/kap3
+- file: mat210/kap4
+- file: mat210/kap5
 
 - header: Zweitore und Zweitorparameter
 - file: zweitor/inhalt

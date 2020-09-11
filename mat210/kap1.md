@@ -1,3 +1,17 @@
-# Erstes Kapitel von MAT210
+# Polynome
 
-Erstes Kapitel von MAT210
+## Definition eines Polynoms
+
+## Konstante Funktionen
+
+## Lineare Funktionen
+
+## Quadratische Funktionen
+
+## Polynome höheren Grades
+
+## Horner-Schema
+
+## Nullstellenbestimmung
+
+## Interpolationspolynome
