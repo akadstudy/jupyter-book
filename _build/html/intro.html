@@ -2,10 +2,11 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
-    <title>Intro &#8212; My Jupyter Book</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zusammenfassungen &#8212; Zusammenfassung</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="_static/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
@@ -13,23 +14,31 @@
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
-    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script type="text/javascript" src="_static/sphinx-book-theme.js"></script>
-    <script type="text/javascript" src="_static/jquery.js"></script>
-    <script type="text/javascript" src="_static/underscore.js"></script>
-    <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="_static/language_data.js"></script>
-    <script type="text/javascript" src="_static/togglebutton.js"></script>
-    <script type="text/javascript" src="_static/clipboard.min.js"></script>
-    <script type="text/javascript" src="_static/copybutton.js"></script>
-    <script type="text/javascript" src="_static/mystnb.js"></script>
-    <script type="text/javascript" src="_static/sphinx-book-theme.js"></script>
-    <script type="text/javascript">var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Grenzwerte und Stetigkeit" href="mat209/kap4.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
@@ -51,7 +60,7 @@
   <img src="_static/logo.png" class="logo" alt="logo">
   
   
-  <h1 class="site-logo" id="site-title">My Jupyter Book</h1>
+  <h1 class="site-logo" id="site-title">Zusammenfassung</h1>
   
 </a>
 </div>
@@ -62,8 +71,26 @@
 </form>
 
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-  
-  
+  <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="#">
+   Zusammenfassungen
+  </a>
+ </li>
+</ul>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="mat209/kap4.html">
+   Grenzwerte und Stetigkeit
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="mat210/kap4.html">
+   Exponential- und Logarithmusfunktionen
+  </a>
+ </li>
+</ul>
+
 </nav>
 
  <!-- To handle the deprecated key -->
@@ -124,15 +151,15 @@
         <!-- Launch buttons -->
 
     </div>
+
+    <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
-
-<nav id="bd-toc-nav">
-    <ul class="nav section-nav flex-column">
-    
-    </ul>
-</nav>
-
-
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            
+        </nav>
     </div>
 </div>
     <div id="main-content" class="row">
@@ -140,13 +167,249 @@
         
               <div>
                 
-  <div class="section" id="intro">
-<h1>Intro<a class="headerlink" href="#intro" title="Permalink to this headline">¶</a></h1>
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+  <div class="section" id="zusammenfassungen">
+<h1>Zusammenfassungen<a class="headerlink" href="#zusammenfassungen" title="Permalink to this headline">¶</a></h1>
+<p>Diese beinhalten:</p>
+<ul class="simple">
+<li><p><strong>Mathematik</strong></p>
+<ul>
+<li><p>Einführung in Matlab (MAT208)</p></li>
+<li><p>Funktionen und ihre Eigenschaften (MAT209)</p></li>
+<li><p>Ganzrationale und gebrochenrationale Funktionen, Potenzen- und Wurzelfunktionen, Exponenzial- und Logarithmusfunktionen (MAT210)</p></li>
+<li><p>Trigonometrische und verwandte Funktionen (MAT211)</p></li>
+<li><p>Folgen und Reihen (MAT212)</p></li>
+<li><p>Lineare Gleichungssysteme (MAT213)</p></li>
+<li><p>Vektorrechnung und Analytische Geometrie (MAT214)</p></li>
+<li><p>Lineare Algebra (MAT215)</p></li>
+<li><p>Komplexe Zahlen und Funktionen (MAT216)</p></li>
+<li><p>Anwendungen der Differenzialrechnung (IMA401)</p></li>
+<li><p>Grundlagen und Anwendungen der Integralrechnung (IMA402)</p></li>
+<li><p>Grundlagen der Numerischen Mathematik (IMA403)</p></li>
+<li><p>Gewöhnlihce Differenzialgleichungen (IMA601)</p></li>
+<li><p>Differenzial- und Integralrechnung mehrerer Veränderlicher (IMA602)</p></li>
+<li><p>Laplace-Transformation (IMA603)</p></li>
+<li><p>Fourier- und z-Transformation (IMA604)</p></li>
+<li><p>Anwendungen von - Integraltransformationen (IMA605)</p></li>
+<li><p>Grundlagen und Technik der Differenzialrechnung (WM201)</p></li>
+</ul>
+</li>
+<li><p><strong>Physik</strong></p>
+<ul>
+<li><p>Physikalisches Messen, Kinematik (PHY101)</p></li>
+<li><p>Mechanik: Impuls, Kraft und Energie (PHY102)</p></li>
+<li><p>Mechanik der Flüssigkeiten und Gase, Schwingungen und Wellen (PHY103)</p></li>
+<li><p>Geometrische Optik (PHY201)</p></li>
+<li><p>Thermodynamik (PHY202)</p></li>
+<li><p>Einführung in die theoretische Elektrodynamik (PHY211)</p></li>
+<li><p>Atombau und Halbleiterphysik (PHY212)</p></li>
+<li><p>Zusammenfassung und Formelsammlung (PHY213)</p></li>
+<li><p>Felder (PHY214)</p></li>
+<li><p>Bauelemente der Halbleiter-Elektronik (PHY501)</p></li>
+</ul>
+</li>
+<li><p><strong>Mechanik</strong></p>
+<ul>
+<li><p>Ebene Kräftesysteme (TME101)</p></li>
+<li><p>Statik ebener Tragwerke (TME102)</p></li>
+<li><p>Schwerpunkte, Schnittgrößen ebener Balkentragwerke (TME103)</p></li>
+<li><p>Grundlastfälle Zug und Druck (TME201)</p></li>
+<li><p>Grundlastfälle Biegung, Schub und Torsion (TME202)</p></li>
+<li><p>Formelsammlung Festigkeitslehre (TME206)</p></li>
+<li><p>Punktbewegung (TME301)</p></li>
+<li><p>Kinematik starrer Körper (TME302)</p></li>
+<li><p>Kinetik starrer Körper (TME303)</p></li>
+<li><p>Einführung in die Schwingungslehre (TME304)</p></li>
+</ul>
+</li>
+<li><p><strong>Konstruktion</strong></p>
+<ul>
+<li><p>Technisches Zeichnen (KON101)</p></li>
+<li><p>Normzahlen, Toleranzen und Passungen; Klebe-, Löt- und Schweißverbindungen (MAE101)</p></li>
+<li><p>Niet-, Schrauben-, Bolzen- und Stiftverbindungen (MAE102)</p></li>
+<li><p>Federn, Achsen, Wellen, Welle-Nabe-Verbindungen (MAE103)</p></li>
+<li><p>Produktplanung und Produktentwicklung (KON201)</p></li>
+<li><p>Methodenandwendung in der Konzeptionsphase(KON211)</p></li>
+<li><p>Kupplungen und Bremsen (MAE201)</p></li>
+<li><p>Wälzlager, Gleitlager (MAE202)</p></li>
+<li><p>Zahnrad- und Stirnradgetriebe (MAE203)</p></li>
+<li><p>Kegelrad- und Schneckengetriebe (MAE204)</p></li>
+<li><p>Hüllgetriebe (MAE205)</p></li>
+<li><p>Virtuelle Produktentwicklung (CAD101)</p></li>
+<li><p>CAD-Systeme (CAD102)</p></li>
+<li><p>Computergestütztes Entwerfen und Konstruieren (CAD201)</p></li>
+</ul>
+</li>
+<li><p><strong>Werkstoffkunde</strong></p>
+<ul>
+<li><p>Verhalten und Werkstoffeigenschaften von Polymeren im Schmelzflüssigen Zustand: grundlegende Verarbeitungsverfahren</p></li>
+<li><p>Werkstoffprüfung</p></li>
+<li><p>Metallische Werkstoffe (WST105-BH)</p></li>
+<li><p>Aufbau, Verhalten und Werkstoffeigenschaften von Polymeren im festen Zustand (WST201-BH)</p></li>
+<li><p>Eigenschaft, Verhalten und Prüfen von Kunststoffen (WST302)</p></li>
+</ul>
+</li>
+<li><p><strong>Programmieren</strong></p>
+<ul>
+<li><p>Vom Datenmodell zur Speicherung in Dateien (DAO101)</p></li>
+<li><p>Zahlensysteme und Codes (ELT301)</p></li>
+<li><p>Boolesche Algebra und kombinatorische Schaltkreise (ELT302)</p></li>
+<li><p>Sequenzielle Schaltungen, Schaltwerke und Simulationssoftware</p></li>
+<li><p>Grundlagen der Programmierung (PRG101)</p></li>
+<li><p>Hardware (WIN103)</p></li>
+<li><p>Software (WIN104)</p></li>
+<li><p>Rechnerverbund und Datenkommunikation (WIN106)</p></li>
+<li><p>Einführung in die Programmierung mit C++ (CPP101)</p></li>
+<li><p>Programmierung in C (CPP109)</p></li>
+<li><p>Programmieren in C++ (CPP110)</p></li>
+</ul>
+</li>
+<li><p><strong>Elektrotechnik</strong></p>
+<ul>
+<li><p>Grundbegriffe und Gleichstromkreise (ELT211)</p></li>
+<li><p>Verfahren zur Berechnung elektrischer Netzwerke (ELT225)</p></li>
+<li><p>Elektrisches Feld und Kondensator (ELT226)</p></li>
+<li><p>Magnetisches Feld und Spule (ELT227)</p></li>
+<li><p>Grundlagen der Wechselstromtechnik (ELT213)</p></li>
+<li><p>Leistung und Drehstrom (ELT214)</p></li>
+<li><p>Netzwerkberechnungen der Wechselstromtechnik (ELT233)</p></li>
+<li><p>Frequenzabhängigkeit der Wechselstromkreise (ELT235)</p></li>
+<li><p>Übertragungsfunktionen, nichtsinusförmige Größen (ELT238)</p></li>
+</ul>
+</li>
+<li><p><strong>Regelungstechnik</strong></p>
+<ul>
+<li><p>Signale und Systeme (REG202)</p></li>
+<li><p>Grundlagen und Beschreibung dynamischer Systeme (REG101)</p></li>
+<li><p>Mathematische Beschreibung und Entwurf von Regelungen (REG102)</p></li>
+<li><p>Zustandraumdarstellung, Modellbildung und Identifikation (REG103)</p></li>
+<li><p>Steuerungsarten, Schaltalgebra und SPS (STT101)</p></li>
+<li><p>Kommunikation zwischen Automatisierungssystemen (STT102)</p></li>
+</ul>
+</li>
+<li><p><strong>Systemdynamik</strong></p>
+<ul>
+<li><p>Grundlagen der Echtzeitsysteme (SYS201)</p></li>
+<li><p>Software in Echtzeitsysteme (SYS202)</p></li>
+<li><p>Verteilte Echtzeitanwendungen (SYS203)</p></li>
+<li><p>Entwurf mechatronischer Systeme (MCT201)</p></li>
+<li><p>Simulation mechatronischer Systeme (MCT202)</p></li>
+<li><p>Zustandsraumdarstellung I (SYS101)</p></li>
+<li><p>Zustandsraumdarstellung II (SYS102)</p></li>
+<li><p>Digitale Regelung (SYS103)</p></li>
+<li><p>Nichtlineare Regelung (SYS104)</p></li>
+</ul>
+</li>
+<li><p><strong>Robotik</strong></p>
+<ul>
+<li><p>Einführung in die Robotik (ROB101)</p></li>
+<li><p>Roboter-Kinematik (ROB102)</p></li>
+<li><p>Roboter-Dynamik und -Regelung (ROB103)</p></li>
+<li><p>Bahnplanung und Programmierung (ROB104)</p></li>
+<li><p>Industrielle Bildverarbeitung (ROB201)</p></li>
+<li><p>Methoden und Algorithmen der 2D-Bildverarbeitung (ROB202)</p></li>
+<li><p>Problemlösungen mit 2D-Bildverarbeitung (ROB203)</p></li>
+<li><p>Fortgeschrittene Bildverarbeitung (ROB204)</p></li>
+<li><p>Werkzeugmaschinen: Grundlagen und Aufbau (FTE201)</p></li>
+<li><p>NC-Werkzeugmaschinen und rechnergestützte Fertigung (FTE204)</p></li>
+<li><p>Kunststoffverarbeitung und NC-Programmierung (FTE301)</p></li>
+<li><p>Programmierung von Industrierobotern (FTE501)</p></li>
+</ul>
+</li>
+<li><p><strong>Messtechnik</strong></p>
+<ul>
+<li><p>Einführung, Grundlagen und Fehlerrechnung (MST101)</p></li>
+<li><p>Messprinzipien und Sensoren (MST102)</p></li>
+<li><p>Grundlagen des Programmierens und Messdatenerfassung mit LabView (MST202)</p></li>
+<li><p>Aktoren als Bewegungskomponente in mechatronischen Systemen (AKT101)</p></li>
+<li><p>Elektromagnetische Aktoren (AKT102)</p></li>
+<li><p>Elektromagnetische Aktoren II (AKT103)</p></li>
+<li><p>Fluidtechnische Aktoren (AKT104)</p></li>
+<li><p>Aktoren in mechatronischen Systemen (AKT105)</p></li>
+<li><p>Grundlagen der Sensorik und Signalaufbereitung (SEN101)</p></li>
+<li><p>Signalübertragung in der Sensorik (SEN102)</p></li>
+<li><p>Magnetfeldempfindliche Sensoren (SEN103)</p></li>
+<li><p>Beispiele für Sensorapplikationen (SEN104)</p></li>
+</ul>
+</li>
+<li><p><strong>Microkontrollersysteme</strong></p>
+<ul>
+<li><p>Passive Bauelemente und Grundschaltungen (ELT201)</p></li>
+<li><p>Grundlagen der Halbleiterbauelemente (ELT202)</p></li>
+<li><p>Transistorgrundschaltungen, weitere Halbleiterbauelemente (ELT203)</p></li>
+<li><p>Verstärker und Kippstufen (ELT204)</p></li>
+<li><p>Digitale Schaltungstechnik (ELT205)</p></li>
+<li><p>Elektroniksimulation mit PSPICE (ELT206)</p></li>
+<li><p>Grundlagen der Mikrocomputer-Systeme (MCS101)</p></li>
+<li><p>Mikrocontroller und Schnittstellen (MCS102)</p></li>
+<li><p>Programmierung von Mikrocomputer-Systemen (MCS103)</p></li>
+<li><p>Anwendungen von Mikrocomputer-Systemen (MCS104)</p></li>
+</ul>
+</li>
+<li><p><strong>Softwareentwicklung</strong></p>
+<ul>
+<li><p>Einführung in die Systementwicklung (SWE101)</p></li>
+<li><p>Softwaremanagement (SWE101)</p></li>
+<li><p>Funktionsorientierte Softwareentwicklung (SWE203)</p></li>
+<li><p>Objektorientierte Softwareentwicklung (SWE204)</p></li>
+<li><p>Software-Ergonomie und Interaktionsdesign im Internet (SWE205)</p></li>
+</ul>
+</li>
+<li><p><strong>Betriebswirtschaft</strong></p>
+<ul>
+<li><p>Gesamtwirtschaftliche Zusammenhänge, Unternehmen und Unternehmenswelt(BWL101)</p></li>
+<li><p>Gründung eines Unternehmens (BWL102)</p></li>
+<li><p>Grundlagen des Produktionsmanagements (BWL103)</p></li>
+<li><p>Marketing (BWL104)</p></li>
+<li><p>Personalmanagement (BWL105)</p></li>
+<li><p>Rechnungswesen (BWL106)</p></li>
+<li><p>Grundlagen Unternehmensführung (BWL107)</p></li>
+<li><p>Qualitätsphilosophien und Methoden im Qualitätsmanagement (QUM101)</p></li>
+<li><p>Statistische Methoden im Qualitätsmanagement (QUM102)</p></li>
+<li><p>Qualitätsnormen, QM-Systeme und gesellschaftliche Aspekte (QUM103)</p></li>
+<li><p>Projektaufbau, Funktionen und Managementtechniken (SQF201)</p></li>
+<li><p>Projekte initialisieren und  planen (SQF401)</p></li>
+<li><p>Projekte abwickeln und abschließen (SQF402)</p></li>
+<li><p>Führen in Projekten und begleitende Aufgaben (SQF403)</p></li>
+<li><p>Multiprojektmanagement (SQF404)</p></li>
+</ul>
+</li>
+<li><p><strong>Projektarbeit und Schlüsselqualifikationen</strong></p>
+<ul>
+<li><p>Projektaufbau, Funktionen und Managementtechniken (SQF201)</p></li>
+<li><p>Projekt initialisieren und planen (SQF401)</p></li>
+<li><p>Projekte abwickeln und abschließen (SQF402)</p></li>
+<li><p>Selbstmanagement (SQF232)</p></li>
+<li><p>Ziel- und Zeitmanagement (SQF233)</p></li>
+<li><p>Kreative Kompetenz (SQF234)</p></li>
+<li><p>Zielsicher präsentieren (SQF235)</p></li>
+<li><p>Wissenschaftliches Arbeiten (SQL301)</p></li>
+<li><p>Vorgaben für wissenschaftliche Studien- und Abschlussarbeiten (SQLD302)</p></li>
+</ul>
+</li>
+</ul>
 <div class="toctree-wrapper compound">
 </div>
 </div>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               
@@ -156,6 +419,7 @@
     
     <div class='prev-next-bottom'>
         
+    <a class='right-next' id="next-link" href="mat209/kap4.html" title="next page">Grenzwerte und Stetigkeit</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

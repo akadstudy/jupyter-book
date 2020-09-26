@@ -1,0 +1,307 @@
+
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koordinatentransformation &#8212; Zusammenfassung</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="../_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/sphinx-book-theme.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Exponential- und Logarithmusfunktionen" href="../mat210/kap4.html" />
+    <link rel="prev" title="Grundlegende Eigenschaften einer Funktion" href="kap2.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  <img src="../_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">Zusammenfassung</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   Zusammenfassungen
+  </a>
+ </li>
+</ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active">
+  <a class="reference internal" href="kap4.html">
+   Grenzwerte und Stetigkeit
+  </a>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="kap1.html">
+     Definition und Darstellungsformen einer Funktion
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="kap2.html">
+     Grundlegende Eigenschaften einer Funktion
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Koordinatentransformation
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../mat210/kap4.html">
+   Exponential- und Logarithmusfunktionen
+  </a>
+ </li>
+</ul>
+
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/mat209/kap3.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+    
+</div>
+        <!-- Source interaction buttons -->
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#verschiebung-eines-kartesischen-koordinatensystems">
+   Verschiebung eines kartesischen Koordinatensystems
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#drehung-eines-kartesischen-koordinatensystems">
+   Drehung eines kartesischen Koordinatensystems
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#transformation-von-kartesischen-koordinaten-zu-polarkoordinaten">
+   Transformation von kartesischen Koordinaten zu Polarkoordinaten
+  </a>
+ </li>
+</ul>
+
+        </nav>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="koordinatentransformation">
+<h1>Koordinatentransformation<a class="headerlink" href="#koordinatentransformation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="verschiebung-eines-kartesischen-koordinatensystems">
+<h2>Verschiebung eines kartesischen Koordinatensystems<a class="headerlink" href="#verschiebung-eines-kartesischen-koordinatensystems" title="Permalink to this headline">¶</a></h2>
+<p>Transformationsgleichungen zwischen alten Koordinaten (x,y) und neuen Koordinaten</p>
+<p><span class="math notranslate nohighlight">\(
+\left\{
+\begin{array}
+\tilde{x} = x - x_0 \\
+\tilde{y} = y - y_0    
+\end{array}
+\right\} bzw.
+\left\{
+\begin{array}
+xx = \tilde{x} + x_0 \\    
+y = \tilde{y} + y_0
+\end{array}
+\right\}
+\)</span></p>
+</div>
+<div class="section" id="drehung-eines-kartesischen-koordinatensystems">
+<h2>Drehung eines kartesischen Koordinatensystems<a class="headerlink" href="#drehung-eines-kartesischen-koordinatensystems" title="Permalink to this headline">¶</a></h2>
+<p>Transformationsgleichungen zwischen alten Koordinaten (x,y) und neuen Koordinaten (x,y) nach einer Drehung mit dem Winkel <span class="math notranslate nohighlight">\(\varphi\)</span> um den Ursprung:</p>
+<p><span class="math notranslate nohighlight">\(
+\tilde{x} = cos({\varphi})x + sin(\varphi)y \\
+\tilde{y} = -sin({\varphi})x + cos(\varphi)y
+\)</span></p>
+</div>
+<div class="section" id="transformation-von-kartesischen-koordinaten-zu-polarkoordinaten">
+<h2>Transformation von kartesischen Koordinaten zu Polarkoordinaten<a class="headerlink" href="#transformation-von-kartesischen-koordinaten-zu-polarkoordinaten" title="Permalink to this headline">¶</a></h2>
+<p>Die <em><strong>Polarkoordinaten</strong></em> (r,<span class="math notranslate nohighlight">\(\varphi\)</span>) eines Punktes (x,y) in der Ebene bestehen aus</p>
+<ul class="simple">
+<li><p>den Abstand r des Punktes vom Koordinatenursprung und</p></li>
+<li><p>dem Winkel <span class="math notranslate nohighlight">\(\varphi\)</span> zwischen der positiven x-Achse und dem Ortsvektor zu dem Punkt.</p></li>
+</ul>
+<p>Transformationsgleichungen von Polarkoordinaten zu kartesischen Koordinaten:</p>
+<p><span class="math notranslate nohighlight">\(r = \sqrt{x^2+y^2}, \varphi = 
+\left\{ 
+\begin{array}
+    aarctan(x/y)   \quad für \quad x &gt; 0 \\
+    arctan(y/x) + \pi  \quad für \quad x &lt; 0, \quad y \geq 0\\
+    arctan(y/x) - \pi \quad für \quad x &lt; 0, \quad y &gt; 0 \\
+    \pi/2 \quad für \quad x = 0, \quad y &gt; 0\\
+    -\pi/2 \quad für \quad x = 0, \quad y &lt; 0 
+\end{array}
+\right\}
+\in (-\pi, \pi]
+\)</span></p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./mat209"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="kap2.html" title="previous page">Grundlegende Eigenschaften einer Funktion</a>
+    <a class='right-next' id="next-link" href="../mat210/kap4.html" title="next page">Exponential- und Logarithmusfunktionen</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Jupyter Book community<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="../_static/js/index.js"></script>
+    
+  </body>
+</html>

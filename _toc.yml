@@ -1,19 +1,13 @@
-- file: intro
-
-- header: MAT209
-- file: mat209/kap1
-- file: mat209/kap2
-- file: mat209/kap3
+file: intro
+sections:
 - file: mat209/kap4
-
-
-- header: MAT210
-- file: mat210/kap1
-- file: mat210/kap2
-- file: mat210/kap3
+  sections:
+  - file: mat209/kap1
+  - file: mat209/kap2
+  - file: mat209/kap3
 - file: mat210/kap4
-- file: mat210/kap5
-
-- header: Zweitore und Zweitorparameter
-- file: zweitor/inhalt
-- file: zweitor/first
+  sections:
+  - file: mat210/kap1
+  - file: mat210/kap5
+  - file: mat210/kap2
+  - file: mat210/kap3
